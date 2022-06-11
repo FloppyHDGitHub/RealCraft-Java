@@ -1,0 +1,59 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHeads&7]'
+  word:
+    page: Página
+    query: Consulta
+    favorites: Favoritos
+    everyone: Todos
+    playerheads: Cabeças do jogadores
+    latestpack: Pacote mais recente
+  phrase:
+    latestpack: Pacote mais recente
+  search:
+    global: '&6Pesquise por uma head.'
+    refine: '&6Digite um termo para refinar sua pesquisa.'
+    nonefound: '&cNenhuma cabeça encontrada..'
+    canceled: '&cPesquisa cancelada.'
+  head:
+    staffpicked: '&8Favoritos da equipe'
+    id: '&8ID: &7%id%'
+    cost: '&8Custo: &7%cost%'
+gui:
+  heads:
+    refine: '&9Refinar pesquisa'
+    search: '&9Pesquisas'
+    categories: '&cVoltar para categorias'
+    delete: '&cClique no meio para excluir'
+  general:
+    previous: '&6Página anterior'
+    next: '&6Próxima página'
+  overview:
+    title: EpicHeads (%count% cabeças)
+    search: '&a&lProcurar'
+    headname: '&c&l%name%'
+    headlore: '&e%count% cabeças'
+    packlore: '&e%pack%'
+    viewfavorites: '&6&lVer Favoritos'
+    favoriteslore: '&8Clique com shift em qualquer cabeça|&8para salvar como favorita.'
+    discord: '&9&lDiscord'
+    discordlore: '&8Adicionar ou solicitar novas cabeças|&8no nosso servidor do discord.'
+event:
+  general:
+    nopermission: '&cVocê não tem permissão para usar esse comando.'
+  buyhead:
+    cannotafford: '&cVocê não pode pagar essa cabeça.'
+command:
+  give:
+    notonline: '&cO jogador &4%name% &cnão pode ser encontrado.'
+    notfound: '&cA cabeça &4%name% &cnão pode ser encontrada.'
+    success: '&7Você deu ao &6%player% &7uma cabeça chamada &6%name%&7.'
+    receive: '&7Você recebeu uma cabeça chamada &6%name%&7.'
+  add:
+    success: '&7Adicionado uma cabeça &6%name% &7com sucesso.'
+    exists: '&cEssa cabeça já existe.'
+  givetoken:
+    success: '&7Você deu ao &6%player% %amount% &7tokens de cabeça de jogador.'
+    receive: '&7Você ganhou &6%amount% &7tokens de cabeça de jogador.'

@@ -1,0 +1,197 @@
+no-permission: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou don''t have permission.'
+game-null: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cThis game doesn''t exist.'
+could-not-find-match: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cCould not find a match.'
+game-full: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cThis arena is full.'
+already-in-game: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou are already in a game.'
+game-is-started: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cThis arena is in game.'
+game-starting-in: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &eThe game is starting in <seconds>
+  seconds.'
+start-cancelled: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cWe don''t have enough players!Start
+  cancelled.'
+player-joined-in-game: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &7<player>&e has joined (&b<inGame>&e/&b<max>&e)!'
+player-left-in-game: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &7<player>&e has quit!'
+not-in-game: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou are not in any game.'
+member-leave: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cThe other member from your team
+  left the game.'
+team-eliminated: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &f&lTEAM ELIMINATED > <teamColor><team>
+  &chas been eliminated.'
+team-full: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &e&l>> The team <team> is full.'
+player-disconnected: '&0[&3Realcraft&0] [&5->&aBW&0]&7<teamColor><player> &ehas disconnected.'
+player-rejoin: '&0[&3Realcraft&0] [&5->&aBW&0]&7<teamColor><player> &ehas reconnected.'
+cant-rejoin: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou can''t rejoin in this arena.'
+game-force-start: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &aThe arena <arenaName> has been
+  forced started.'
+stopped-force-start: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &aThe arena <arenaName> has
+  been stopped from force start'
+game-forced-stopped: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &aThe arena <arenaName> has
+  been stopped.'
+force-start-command-usage: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cUse command: &a/bedwars
+  forceStart <arenaName>'
+force-stop-command-usage: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cUse command: &a/bedwars
+  forceStop <arenaName>'
+party-chat-command-usage: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cUse command: &a/party
+  chat <message> to send a message'
+party-invite-command-usage: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cCommand usage: /party
+  invite <player>'
+party-accept-command-usage: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cCommand usage: /party
+  accept <player>'
+party-kick-command-usage: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cCommand usage: /party
+  kick <player>'
+party-chat-format: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &a(Party chat) <player> : <message>'
+player-joined-in-party: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &a<player> joined in party.'
+party-join: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &aYou''ve joined in <player> party.'
+invite-yourself-party: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou can''t invite yourself.'
+only-leader-can-invite: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cOnly party leader can
+  invite players.'
+player-in-party: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cThe player <player> is already
+  in a party.'
+party-request-sent: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &aParty invite sent to <player>'
+party-invite-expired: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYour party invite timed
+  out.'
+cant-accept-yourself: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou can''t accept yourself
+  a party invite'
+no-party-request: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou don''t have any party request'
+party-request-received: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &aParty request from <player>.
+  Click here to accept it.'
+not-in-party: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou are not in any party.'
+party-leave: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &eYou left from <player>''s party.'
+party-disband-by-leader: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &eThe party has been disbanded
+  by the leader.'
+party-disband-by-size: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &eThe party has been disbanded
+  due to size.'
+player-left-from-party: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &e<player> left the party.'
+party-kick-yourself: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou can''t kick yourself.'
+only-leader-can-kick: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cOnly the leader can kick
+  players from party.'
+not-in-your-party: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &e<player> is not in your party.'
+player-kicked-from-party: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &eThe player <player>
+  has been kicked from party.'
+party-kick: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &eYou have been kicked from party by
+  <player>.'
+only-leader-can-disband: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cOnly the party leader
+  can disband the party.'
+player-killed: '&0[&3Realcraft&0] [&5->&aBW&0]&7 <playerTeamColor><player> &7was killed
+  by <killerTeamColor><killer> <isFinalKill>&7!'
+player-knocked-void: '&0[&3Realcraft&0] [&5->&aBW&0]&7 <playerTeamColor><player> &7was
+  knocked into void by <damagerTeamColor><damager> <isFinalKill>&7!'
+player-fall-in-void: '&0[&3Realcraft&0] [&5->&aBW&0]&7 <playerTeamColor><player> &7fell
+  into the void.'
+player-died: '&0[&3Realcraft&0] [&5->&aBW&0]&7 <playerTeamColor><player> &7died.'
+player-killed-by-tnt: '&0[&3Realcraft&0] [&5->&aBW&0]&7 <playerTeamColor><player>
+  &7has been killed by <killerTeamColor><killer> &7TNT <isFinalKill>&7!'
+player-killed-by-arrow: '&0[&3Realcraft&0] [&5->&aBW&0]&7 <playerTeamColor><player>
+  &7has been killed by <killerTeamColor><killer> &7arrow <isFinalKill>&7!'
+player-killed-by-fireball: '&0[&3Realcraft&0] [&5->&aBW&0]&7 <playerTeamColor><player>
+  &7has been killed by <killerTeamColor><killer> &7fireball <isFinalKill>&7!'
+player-killed-by-golem: '&0[&3Realcraft&0] [&5->&aBW&0]&7 <playerTeamColor><player>
+  &7has been killed by <golemTeamColor><golemTeam> &7golem.'
+player-killed-by-silverfish: '&0[&3Realcraft&0] [&5->&aBW&0]&7 <playerTeamColor><player>
+  &7has been killed by <silverfishTeamColor><silverfishTeam> &7silverfish.'
+player-killed-himself: '&0[&3Realcraft&0] [&5->&aBW&0]&7 <playerTeamColor><player>
+  &7killed himself <isFinalKill>!'
+player-fell-high-place: '&0[&3Realcraft&0] [&5->&aBW&0]&7 <playerTeamColor><player>
+  &7fell from a high place.<isFinalKill>'
+final-kill-display: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &b&lFINAL KILL'
+bed-destroyed: '&0[&3Realcraft&0] [&5->&aBW&0]&7 <teamColor><team> &4bed &7has been
+  destroyed by <playerTeamColor><player>.'
+destroy-your-bed: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou can''t destroy your bed.'
+destroy-not-placed-block: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou can only destroy
+  placed blocks.'
+iron-golem-limit: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou have more golem than the
+  limit.'
+silverfish-limit: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou have more silverfish than
+  the limit.'
+player-offline: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cError!This player is offline.'
+join-command-usage: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &eUse command: &a/bedwars join
+  <arenaName> to join in arena.'
+skin-doesnt-exist: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &eSkin name <skinName> doesn''t
+  exist. Choose one from:&a <availableSkins>.'
+no-permission-for-skin: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou don''t have permission
+  for skin <skinName>.'
+your-skin-set: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &aYour shop keeper skin has been
+  set to <skinName>.'
+player-skin-set: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &aPlayer <playerName> shop keeper
+  skin has been set to <skinName>.'
+gametype-null: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cThis game type doesn''t exist.'
+player-not-in-game: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cPlayer <playerName> is not
+  in game.'
+cant-find-any-arena: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cNo arena found.'
+teleported-to: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &aYou were teleported to &7<player>.'
+shout-missing-arguments: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cMissing arguments! Usage:
+  /shout <message>'
+delay-leave: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou have to wait 3 seconds before
+  leave.'
+outside-of-arena: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou''re outside of arena.'
+selected-kit: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &eYou''ve selected the kit <kitDisplayName>.'
+diamond-two-upgrade: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &bDiamond Generators &ehave
+  been upgraded to Tier &cII'
+diamond-three-upgrade: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &bDiamond Generators &ehave
+  been upgraded to Tier &cII'
+emerald-two-upgrade: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &2Emerald Generators &ehave
+  been upgraded to Tier &cII'
+emerald-three-upgrade: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &2Emerald Generators &ehave
+  been upgraded to Tier &cIII'
+click-to-purchase: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &eClick to purchase'
+upgrade-bought: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &e<player> has bought the upgrade
+  &a<upgradeName>'
+player-upgrade-bought: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &eYou bought the upgrade
+  &a<upgradeName>'
+already-bought-the-upgrade: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou have already bought
+  this upgrade.'
+not-enough-resources: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &cYou don''t have enough resources.'
+sneak-click-quick-buy-add: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &bSneak Click to add
+  to Quick Buy'
+adding-item-to-quick-slot: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &eAdding item to Quick
+  Slot!'
+click-to-replace: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &eClick to replace!'
+click-to-set: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &eClick to set!'
+bedwars-console-chat: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &e<arenaName> : <message>'
+end-message:
+- ''
+- <winnerTeamColor><winnerTeam> has won the game!
+- <center>&a&l---------------------------------------------
+- ''
+- <center>RealCraft&f&lBedWars
+- ''
+- <center><winnerTeamColor><winnerTeam> &7 - &7<winner>
+- ''
+- ''
+- <center>&e&l1st Killer&7 - <topOneName> - &7<topOneKills>
+- <center>&6&l2nd Killer&7 - <topTwoName> - &7<topTwoKills>
+- <center>&c&l3rd Killer&7 - <topThreeName> - &7<topThreeKills>
+- ''
+- <center>&a&l---------------------------------------------
+start-message:
+- <center>&a&l The Game Started
+bedwars-help-admins:
+- '&e-------------------------------------------'
+- "&e\xe2\u2021\xa8Bedwars Commands"
+- ''
+- "&e\xe2\u2021\xa8 /bedwars join <arenaName> to join in an arena"
+- "&e\xe2\u2021\xa8 /bedwars leave to leave from arena"
+- "&e\xe2\u2021\xa8 /bedwars setLobby to set the lobby where the players get teleported\
+  \ when an arena ends"
+- "&e\xe2\u2021\xa8 /bedwars holograms to see stats holograms"
+- "&e\xe2\u2021\xa8 /bedwars clone <existingArenaName> <newArenaName> to clone an\
+  \ arena"
+- "&e\xe2\u2021\xa8 /bedwars delete <arenaName> to delete an arena"
+- "&e\xe2\u2021\xa8 /bedwars create <arenaName> <arenaType> <playersPerTeam> <minimumTeamsToStart>\
+  \ to create an arena"
+- "&e\xe2\u2021\xa8 /bedwars setShopPath <arenaName> <shopPathName> to set the shop\
+  \ path for arena"
+- "&e\xe2\u2021\xa8 /bedwars setUpgradePath <arenaName> <upgradePathName> to set the\
+  \ upgrade path for arena"
+bedwars-help-players:
+- '&e-------------------------------------------'
+- "&e\xe2\u2021\xa8Bedwars Commands"
+- ''
+- "&e\xe2\u2021\xa8 /bedwars join <arenaName> to join in an arena"
+- "&e\xe2\u2021\xa8 /bedwars leave to leave from arena"
+party-help-players:
+- '&a&l---------------------------------------------'
+- '&a-> /party invite <username>'
+- '&a-> /party accept <player>'
+- '&a-> /party list'
+- '&a-> /party kick <player>'
+- '&a-> /party disband'
+- '&a&l---------------------------------------------'

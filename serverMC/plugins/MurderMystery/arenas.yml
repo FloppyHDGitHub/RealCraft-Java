@@ -1,0 +1,54 @@
+instances:
+  default:
+    lobbylocation: world,364.0,63.0,-72.0,0.0,0.0
+    Endlocation: world,364.0,63.0,-72.0,0.0,0.0
+    minimumplayers: 2
+    maximumplayers: 10
+    mapname: mapname
+    world: worldname
+    signs: []
+    isdone: false
+    playerspawnpoints:
+    - world,364.0,63.0,-72.0,0.0,0.0
+    goldspawnpoints:
+    - world,364.0,63.0,-72.0,0.0,0.0
+    mystery-cauldrons:
+    - world,364.0,63.0,-72.0,0.0,0.0
+    playerpermurderer: 5
+    playerperdetective: 7
+    goldvisuals: false
+  HypixelPark:
+    lobbylocation: MurderMysterymapHypixelworld,0.45607835423883814,66.84283872482041,54.32565488673138,181.20038,0.0
+    Startlocation: world,120.0,64.0,244.0,0.0,0.0
+    Endlocation: LobbyAll,21.441026979937952,72.0,11.497348470453169,90.30024,0.0
+    playerspawnpoints:
+    - MurderMysterymapHypixelworld,0.49336213874416945,68.0,15.468637146252604
+    - MurderMysterymapHypixelworld,-14.676292381818666,68.0,0.6298103098350455
+    - MurderMysterymapHypixelworld,15.657432297655085,68.0,0.43983702018512166
+    - MurderMysterymapHypixelworld,0.477390047963511,68.0,-14.78889247503321
+    goldspawnpoints:
+    - MurderMysterymapHypixelworld,-4.3000000119209325,68.0,0.7279995653018057
+    - MurderMysterymapHypixelworld,5.35449694650356,68.0,0.5764115471965049
+    - MurderMysterymapHypixelworld,-5.237403528931407,70.0,39.47953491273325
+    - MurderMysterymapHypixelworld,49.55202559141611,65.0,-8.389348711372765
+    - MurderMysterymapHypixelworld,19.850912850875307,72.0,-39.38022606444602
+    - MurderMysterymapHypixelworld,14.141944225666544,69.0625,-63.91495930432376
+    - MurderMysterymapHypixelworld,-52.296232357754974,68.0,-0.31004569542098054
+    - MurderMysterymapHypixelworld,-42.42620130303745,65.0,-16.718827954902608
+    - MurderMysterymapHypixelworld,-69.69999998807906,61.0,-2.3786085068918013
+    - MurderMysterymapHypixelworld,6.215746842252565,65.0,45.699999988079064
+    - MurderMysterymapHypixelworld,-23.566657614841386,65.0,-11.560607010922173
+    minimumplayers: 2
+    maximumplayers: 10
+    playerpermurderer: 5
+    playerperdetective: 7
+    mapname: HypixelPark
+    signs: []
+    isdone: true
+    world: MurderMysterymapHypixelworld
+    mystery-cauldrons:
+    - MurderMysterymapHypixelworld,-65.0,68.0,-13.0
+    confessionals:
+    - MurderMysterymapHypixelworld,44.0,65.0,-19.0
+    spawngoldtime: 5
+    hidechances: false

@@ -1,0 +1,37 @@
+# DO NOT CHANGE THE NAME OF TEAM_PICKER_ITEM, NEXT_PAGE_ITEM, PREVIOUS_PAGE_ITEM
+Menu:
+    TeamSelector:
+        InventoryName: '&aTeam Selector'
+        InventorySize: 27
+        Contents:
+            TEAM_PICKER_ITEM:
+                StackBasedOnTeamPlayers: true
+                Slot: 9,10,11,12,13,14,15,16,17
+                DisplayName: '&e<teamName> team'
+                #Material: STONE
+                #Amount: 1
+                #Glowing: true
+                #Lore:
+                #- '<teamName>'
+                #- '<teamColor>'
+                #- '<teamColorName>'
+                #- '<teamPlayersInLine>'
+                #- '<teamPlayers>'
+        NEXT_PAGE_ITEM:
+            Slot: 26
+            Material: PAPER
+            Data: 0
+            Amount: 1
+            DisplayName: '&e⇨Next page'
+            Glowing: false
+            Lore:
+                - ''
+        PREVIOUS_PAGE_ITEM:
+            Slot: 25
+            Material: PAPER
+            Data: 0
+            Amount: 1
+            DisplayName: '&e⇨Previous page'
+            Glowing: false
+            Lore:
+                - ''

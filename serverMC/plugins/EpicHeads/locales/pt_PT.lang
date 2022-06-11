@@ -1,0 +1,55 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHeads&7]'
+  word:
+    page: Pagina
+    query: Consulta
+    favorites: Favoritos
+    everyone: todos
+  phrase:
+    latestpack: Ultimo Pack
+  search:
+    global: '&6Digite A Sua Pesquisa!'
+    refine: '&6Introduza Um Termo De Pesquisa Para Redefenir A Sua Pesquisa!'
+    nonefound: '&cSem Cabeças Encontradas!'
+    canceled: '&cPesquisa &lCancelada&c!'
+  head:
+    staffpicked: '&8Favoritos Da Staff'
+    id: '&8ID: &7%id%'
+    cost: '&8Custo: &7%cost%'
+gui:
+  heads:
+    refine: '&9Redefenir Pesquisa!'
+    search: '&9Criar Pesquisa!'
+    categories: '&cVoltar As Categorias!'
+  general:
+    previous: '&6Pagina Anterior'
+    next: '&6Proxima Pagina!'
+  overview:
+    title: EpicHeads (%count% cabeças)
+    search: '&a&lPesquisar'
+    headname: '&c&l%name%'
+    headlore: '&e%count% cabeças'
+    packlore: '&e%pack%'
+    viewfavorites: '&6&lVer Favoritos'
+    favoriteslore: '&8Clique Com Shift &eEm Qualquer Cabeça|&8Para Adicionar Para Os Favoritos!'
+    discord: '&9&lDiscord'
+    discordlore: '&8Adicionar Ou Requestiar Novas Cabeças|&8No Nosso Servidor De Discord!'
+event:
+  general:
+    nopermission: '&cVoce Nao Tem Permissao Para Usar Este Comando!'
+    cannotafford: '&cSem Dinheiro Suficiente Para Esta Cabeça!'
+command:
+  give:
+    notonline: '&cO Player &4%name% &cNao Foi Encontrado!'
+    notfound: '&cA Cabeça %4%name% &cNao Foi Encontrada!'
+    success: '&7Voce Deu A &6%player% &7Uma Cabeça Chamada &6%name%&7.'
+    receive: '&7Foi Dado A Voce Uma Cabeça Nomeada &6%name%&7.'
+  add:
+    success: '&7Adicionado Cabeça &6%name% &7Com Sucesso!'
+    exists: '&cEssa Cabeça Ja Existe!'
+  givetoken:
+    success: '&7Voce Deu A &6%player% , &6%amount% &7De Player Head Token(s).'
+    receive: '&7Foi Dado A Voce &6%amount% &7De Player Head Token(s).'

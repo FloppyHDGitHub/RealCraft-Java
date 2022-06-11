@@ -1,0 +1,21 @@
+if(LanguageConfController.getLang(p) == "US-us") {
+	
+}else if(LanguageConfController.getLang(p) == "DE-de") {
+	
+}else if(LanguageConfController.getLang(p) == "RU-ru") {	
+	
+}else if(LanguageConfController.getLang(p) == "FR-fr") {
+	
+}else if(LanguageConfController.getLang(p) == "ES-es") {
+	
+}else if(LanguageConfController.getLang(p) == "IT-it") {
+	
+}else if(LanguageConfController.getLang(p) == "GB-gb") {
+	
+}else if(LanguageConfController.getLang(p) == "AE-ae") {
+	
+}else if(LanguageConfController.getLang(p) == "NE-ne") {
+	
+}else if(LanguageConfController.getLang(p) == "TU-tu") {
+	
+}

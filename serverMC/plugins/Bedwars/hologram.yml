@@ -1,0 +1,9 @@
+StatisticsHologram:
+  Text:
+  - '&6&lYour Bed Wars Profile'
+  - '&fTotal Wins: &a<totalWins>'
+  - '&fTotal Kills: &a<totalKills>'
+  - '&fTotal Games Played: &a<totalGamesPlayed>'
+  - '&fTotal Losses: &a<totalLosses>'
+  - '&fTotal Beds Broken: &a<totalBedsBroken>'
+  - '&fTotal Beds Lost: &a<totalBedsLost>'

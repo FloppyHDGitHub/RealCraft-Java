@@ -1,0 +1,59 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHeads&7]'
+  word:
+    page: Page
+    query: Recherche
+    favorites: Favoris
+    everyone: Tout le monde
+    playerheads: Tête de joueur
+    latestpack: Dernier Pack
+  phrase:
+    latestpack: Dernier Pack
+  search:
+    global: '&6Entrez votre recherche.'
+    refine: '&6Entrez un mot pour affiner votre recherche.'
+    nonefound: '&cAucune tête trouvée..'
+    canceled: '&cRecherche abandonnée.'
+  head:
+    staffpicked: '&8Favoris du Staff'
+    id: '&8ID: &7%id%'
+    cost: '&8Coût: &7%cost%'
+gui:
+  heads:
+    refine: '&9Affiner la recherche'
+    search: '&9Créer une recherche'
+    categories: '&cRetour aux Catégories'
+    delete: '&cClique gauche pour supprimer.'
+  general:
+    previous: '&6Page Précédente'
+    next: '&6Page Suivante'
+  overview:
+    title: EpicHeads (%count% heads)
+    search: '&a&lRecherche'
+    headname: '&c&l%name%'
+    headlore: '&e%count% Têtes'
+    packlore: '&e%pack%'
+    viewfavorites: '&6&lVoir les Favoris'
+    favoriteslore: '&8Shift-clique une tête|&8pour la sauvegarder comme favori.'
+    discord: '&9&lDiscord'
+    discordlore: '&8Ajouter ou demander de nouvelles têtes|&8Sur notre serveur Discord.'
+event:
+  general:
+    nopermission: '&cVous n''avez pas les permissions nécessaires.'
+  buyhead:
+    cannotafford: '&cVous n''avez pas assez d''argent pour cette tête.'
+command:
+  give:
+    notonline: '&cLe joueur &4%name% &cn''a pas été trouvé.'
+    notfound: '&cLa tête &4%name%&c n''a pas été trouvée.'
+    success: '&7Vous avez reçu la tête de &6%player%.'
+    receive: '&7Vous avez reçu la tête &6%name%&7.'
+  add:
+    success: '&7Ajout de la tête &6%name% &7réussi.'
+    exists: '&cCette tête existe déja.'
+  givetoken:
+    success: '&7Vous avez donné &6%amount% &7Token de tête à &6%player%.'
+    receive: '&7Vous avez reçu &6%amount% &7Tokens de tête.'

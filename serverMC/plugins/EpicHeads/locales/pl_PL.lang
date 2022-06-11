@@ -1,0 +1,59 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHeads&7]'
+  word:
+    page: Strona
+    query: Zapytanie
+    favorites: Ulubione
+    everyone: Wszyscy
+    playerheads: Glowy graczy
+    latestpack: Pakiet najnowszych
+  phrase:
+    latestpack: Pakiet najnowszych
+  search:
+    global: '&6Wpisz wyszukiwaną wartość.'
+    refine: '&6Dostosuj wyszukiwanie.'
+    nonefound: '&cNie znaleziono głowy...'
+    canceled: '&cWyszukiwanie anulowane.'
+  head:
+    staffpicked: '&8Ulubiona ekipy'
+    id: '&8ID: &7%id%'
+    cost: '&8Koszt: &7%cost%'
+gui:
+  heads:
+    refine: '&9Dostosuj wyszukiwanie'
+    search: '&9Wyszukaj'
+    categories: '&cWróć do kategorii'
+    delete: '&cNaciśnij SCROLL by to usunąć'
+  general:
+    previous: '&6Poprzednia strona'
+    next: '&6Następna strona'
+  overview:
+    title: EpicHeads (%count% glow)
+    search: '&a&lWyszukaj'
+    headname: '&c&l%name%'
+    headlore: '&e%count% głów'
+    packlore: '&e%pack%'
+    viewfavorites: '&6&lWyświetl ulubione'
+    favoriteslore: '&8Shift + LPM |&8zapisz głowę do ulubionych.'
+    discord: '&9&lDiscord'
+    discordlore: '&8Dodaj lub zaproponuj nową głowę|&8na naszym serwerze Discord.'
+event:
+  general:
+    nopermission: '&cNie masz uprawnień aby użyć tej komendy.'
+  buyhead:
+    cannotafford: '&cBrak środków aby zakupić tą głowę.'
+command:
+  give:
+    notonline: '&cNie znaleziono gracza o nazwie &4%name%&c.'
+    notfound: '&cNie znaleziono głowy o nazwie &4%name%&c.'
+    success: '&7Gracz &6%player% &7otrzymał od Ciebie głowę o nazwie &6%name%&7.'
+    receive: '&7Otrzymałeś głowę o nazwie &6%name%&7.'
+  add:
+    success: '&7Pomyślnie dodano głowę o nazwie &6%name%&7.'
+    exists: '&cGłowa o tej nazwie już istnieje.'
+  givetoken:
+    success: '&7Przekazałeś graczowi &6%player% &7%amount% &7żetonów.'
+    receive: '&7Otrzymałeś &6%amount% &7żetonów.'

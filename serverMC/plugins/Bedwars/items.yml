@@ -1,0 +1,45 @@
+game-leave:
+  Enabled: true
+  Material: BED
+  Data: 0
+  Slot: 8
+  Amount: 1
+  DisplayName: '&aLeave from arena'
+  Lore:
+  - ''
+spectator-leave:
+  Enabled: true
+  Material: BED
+  Data: 0
+  Slot: 8
+  Amount: 1
+  DisplayName: '&aLeave from arena'
+  Lore:
+  - ''
+team-selector:
+  Enabled: true
+  Material: COMPASS
+  Data: 0
+  Slot: 0
+  Amount: 1
+  DisplayName: '&aSelect a team'
+  Lore:
+  - ''
+teleporter:
+  Enabled: true
+  Material: COMPASS
+  Data: 0
+  Slot: 0
+  Amount: 1
+  DisplayName: '&aTeleport to a player'
+  Lore:
+  - ''
+spectator-settings:
+  Enabled: true
+  Material: REDSTONE_COMPARATOR
+  Data: 0
+  Slot: 4
+  Amount: 1
+  DisplayName: '&bSpectator settings&7(Right click)'
+  Lore:
+  - ''

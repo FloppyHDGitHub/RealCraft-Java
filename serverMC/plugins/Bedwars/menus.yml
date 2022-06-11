@@ -1,0 +1,86 @@
+Menu:
+  ArenaInventory:
+    SearchingDisplay: '&aSearching players'
+    StartingDisplay: '&aStarting in <seconds> s'
+    Size: 27
+    InventoryName: '&eJoin in arena'
+    ArenaSlot: 9,10,11,12,13,14,15,16,17
+    WaitingArena:
+      Material: WOOL
+      Data: 5
+      Amount: 1
+      DisplayName: "&e\xe2\u2021\xa8<arenaName>"
+      Glowing: false
+      Lore:
+      - "&e\xe2\u2021\xa8Arena <arenaName>"
+      - "&e\xe2\u2021\xa8Mode <arenaType>"
+      - ' '
+    StartingArena:
+      Material: WOOL
+      Data: 14
+      Amount: 1
+      DisplayName: "&e\xe2\u2021\xa8<arenaName>"
+      Glowing: false
+      Lore:
+      - "&e\xe2\u2021\xa8Arena <arenaName>"
+      - "&e\xe2\u2021\xa8Mode <arenaType>"
+      - '&aStarting in <seconds>'
+    NextPage:
+      Slot: 26
+      Material: PAPER
+      Data: 0
+      Amount: 1
+      DisplayName: "&e\xe2\u2021\xa8Next page"
+      Glowing: false
+      Lore:
+      - ''
+    PreviousPage:
+      Slot: 25
+      Material: PAPER
+      Data: 0
+      Amount: 1
+      DisplayName: "&e\xe2\u2021\xa8Previous page"
+      Glowing: false
+      Lore:
+      - ''
+    Contents:
+      FIRST_ITEM:
+        Slot: 0,1,2,3,4,5,6,7,8,18,19,20,21,22,23,24,25,26
+        Material: STAINED_GLASS_PANE
+        Data: 15
+        Amount: 1
+        DisplayName: ' '
+        Glowing: false
+        Lore:
+        - ''
+  JoinNPC:
+    Size: 36
+    InventoryName: '&8Play Bed Wars'
+    Contents:
+      BED:
+        Slot: 12
+        Material: BED
+        DisplayName: '&aBed Wars <arenaTypeFirstLetterUppercase>'
+        Lore:
+        - '&7Play Bed Wars <arenaTypeFirstLetterUppercase>'
+        - ''
+        - '&eClick to play!'
+        PlayerCommands:
+        - bedwars randomJoin <arenaType>
+      MAP_SELECTOR:
+        Slot: 14
+        Material: SIGN
+        DisplayName: '&aMap Selector (<arenaTypeFirstLetterUppercase>)'
+        Lore:
+        - '&7Pick which map you want to play'
+        - '&7from a list of available servers.'
+        - ''
+        - '&eClick to browse'
+        PlayerCommands:
+        - bedwars arenasGUI <arenaType>
+      CLOSE:
+        Slot: 31
+        Material: ENDER_PEARL
+        DisplayName: '&cClose'
+        PlayerCommands:
+        - bedwars closeInventory

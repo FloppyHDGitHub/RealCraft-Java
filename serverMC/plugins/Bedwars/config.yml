@@ -1,0 +1,130 @@
+# Official Documentation https://bitbucket.org/STRMarius/bedwarswiki/wiki/Home
+WorldAdapter: NORMAL_ADAPTER
+FastAsyncWorldEdit: false
+onJoin:
+  TeleportToLobbyLocation: false
+ShoutCommand:
+  Name: shout
+MySQL:
+  Enabled: false
+  Host: localhost
+  Database: TestDatabase
+  Username: root
+  Password: ''
+  Port: 3306
+  enabled: false
+  ip: localhost
+  port: 3306
+  database: probedwars
+  username: root
+  password: root
+  offline-mode: false
+BungeeCord:
+  Enabled: false
+  RandomLobbyServer:
+    Enabled: false
+    Servers:
+    - Hub
+    - Hub-1
+    - Hub-2
+  LobbySocket:
+    Enabled: false
+    IP: localhost
+    Port: 9999
+  LobbyServer: Hub
+  RestartCommand: restart
+  RestartMessage: '&aThe server is going to restart in 10 seconds.'
+  MOTD:
+    Display: <gameState>,&a<inGame>/<max>
+    InGameState: '&cIN_GAME'
+    InWaitingState: '&aIN_WAITING'
+MongoDB:
+  enabled: false
+  hostname: localhost
+  port: 27017
+  database: probedwars
+  username: root
+  password: pass
+General:
+  enableTitles: true
+  enable-vault: false
+  disable-hunger: true
+  holograms-update-minutes: 10
+  onJoinItems: false
+  joinItemWorlds: []
+  gameEnd-Fireworks: true
+  disableParties: false
+  Use-Featherboard: false
+  ignore-spectators-spawn: false
+Leaderboards:
+  enabled: true
+  update-time-minutes: 10
+LobbyScoreboard:
+  enabled: false
+  allowed-worlds: []
+Broadcaster:
+  enabled: true
+  send-every: 60
+Generators:
+  Times:
+    diamond-tier1: 30
+    diamond-tier2: 20
+    diamond-tier3: 10
+    emerald-tier1: 40
+    emerald-tier2: 30
+    emerald-tier3: 20
+    iron: 3
+    gold: 12
+    emerald: 11
+GameTimes:
+  lobbyTime: 20
+  eventTime: 360
+  endTime: 10
+  event-after: 30
+Rewards:
+  moneyOnWin: 50
+  soulsOnWin: 2
+  commandsOnWin: []
+  moneyPerKill: 10
+  soulsPerKill: 1
+  commandsPerKill: []
+Bungee-Mode:
+  enabled: false
+  hub: lobby
+  shutdown-after-amount-games: 5
+Saving-Task:
+  enabled: true
+  Save-Every-Minutes: 10
+PlaceholderAPI:
+  enabled: false
+Whitelist Commands:
+- bw leave
+Scoreboard-Animation:
+  enabled: true
+  delay: 4
+  title:
+  - '&e&lBEDWARS'
+  - '&f&lBEDWARS'
+  - '&6&lB&e&lEDWARS'
+  - '&f&lBEDWA&6&lR&e&lS'
+  - '&f&lBEDWAR&6&lS'
+SignGlass:
+  lobby-color-id: 5
+  starting-color-id: 4
+  ingame-color-id: 14
+  end-color-id: 3
+Arena-Items:
+  leave-item: BED
+LeaveCommands:
+  enabled: true
+  commands:
+  - leave
+CompassTracker:
+  enabled: true
+  cooldown: 5
+Death-Commands:
+  enabled: false
+  Commands: []
+GUI-Inventories:
+  frame-material: STAINED_GLASS_PANE:7
+LobbyLocation: bw-l1,8.50940614086284,8.0,37.473772867271265,-180.15002,0.14978787

@@ -1,0 +1,37 @@
+name: RealPlugin
+version: ${project.version}
+main: lu.realcraft.realplugin.main.RealMain
+api-version: 1.8.8
+authors: [ FloppyHD_0773 ]
+softdepend: [PlaceholderAPI]
+
+commands:
+  Handy:
+  BankInv:
+  HandySettings:
+  ClearRealCraftChat:
+  sign:
+  AdminInv:
+  Rename:
+  Fly:
+  ClearLag:
+  RealBedwarsMenuOpener:
+  l:
+  BackHandy:
+  lobby:
+  hub:
+  load:
+  BackHandy:
+  GiveMyPhoneBack:
+  Realtask:
+  task:
+  RealPerm:
+  Perm:
+  Pex:
+  RealPex:
+  mvinv:
+  money:
+  pay:
+  eco:
+  rlRealcraftconfigs:
+  getcustomhead:

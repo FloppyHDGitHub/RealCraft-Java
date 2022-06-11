@@ -1,0 +1,56 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHeads&7]'
+  word:
+    page: Seite
+    query: Suchanfrage
+    favorites: Favoriten
+    everyone: Alle
+  phrase:
+    latestpack: Letzte Sammlung
+  search:
+    global: '&6Gib deine Sucheanfrage ein.'
+    refine: '&6Gebe einen Begriff ein, um die Suche zu verfeinern.'
+    nonefound: '&cEs konnten keine Köpfe gefunden werden..'
+    canceled: '&cSuche abgebrochen.'
+  head:
+    staffpicked: '&8Team Favoriten'
+    id: '&8ID: &7%id%'
+    cost: '&8Preis: &7%cost%'
+gui:
+  heads:
+    refine: '&9Verfeinere deine Suche'
+    search: '&9Suche'
+    categories: '&cZurück zu den Kategorien'
+  general:
+    previous: '&6Vorherige Seite'
+    next: '&6Nächste Seite'
+  overview:
+    title: EpicHeads (%count% Köpfe)
+    search: '&a&lSuche'
+    headname: '&c&l%name%'
+    headlore: '&e%count% Köpfe'
+    packlore: '&e%pack%'
+    viewfavorites: '&6&lZeige Favoriten'
+    favoriteslore: '&8Shift-Klicke einen Kopf,|&8um ihn als Favorit zu speichern.'
+    discord: '&9&lDiscord'
+    discordlore: '&8Füge einen neuen Kopf hinzu oder frage einen|&8in unserem Discord-Server an.'
+event:
+  general:
+    nopermission: '&cDu hast keine Berechtigung dies zu tun.'
+  buyhead:
+    cannotafford: '&cDu kannst dir diesen Kopf nicht leisten.'
+command:
+  give:
+    notonline: '&cDer Spieler mit dem Namen &4%name% &ckonnte nicht gefunden werden.'
+    notfound: '&cDer Kopf &4%name%&c konnte nicht gefunden werden.'
+    success: '&7Du hast &6%player% &7einen &6%name%&7 Kopf gegeben.'
+    receive: '&7Dir wurde ein &6%name%&7 Kopf gegeben.'
+  add:
+    success: '&7Du hast erfolgreich den &6%name% &7Kopf hinzugefügt.'
+    exists: '&cDieser Kopf existiert bereits.'
+  givetoken:
+    success: '&7Du hast &6%player% %amount% &7Spieler-Kopf Schlüssel gegeben.'
+    receive: '&7Dir wurden &6%amount% &7pieler-Kopf Schlüssel gegeben.'

@@ -1,0 +1,59 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHeads&7]'
+  word:
+    page: Страница
+    query: Поиск
+    favorites: Избранное
+    everyone: Всё
+    playerheads: Головы игрока
+    latestpack: Недавние
+  phrase:
+    latestpack: Недавние
+  search:
+    global: '&6Введите ваш поисковый запрос.'
+    refine: '&6Введите критерии поиска.'
+    nonefound: '&cНичего не найдено..'
+    canceled: '&cПоиск отменен.'
+  head:
+    staffpicked: '&8Избранное у администрации'
+    id: '&8ID: &7%id%'
+    cost: '&8Цена: &7%cost%'
+gui:
+  heads:
+    refine: '&9Обновить страницу'
+    search: '&9Создать поисковый запрос'
+    categories: '&cНазад к категориям'
+    delete: '&cСКМ для удаления'
+  general:
+    previous: '&6Предыдущая страница'
+    next: '&6Следующая страница'
+  overview:
+    title: EpicHeads (%count% голов)
+    search: '&a&lПоиск'
+    headname: '&c&l%name%'
+    headlore: '&e%count% голов'
+    packlore: '&e%pack%'
+    viewfavorites: '&6&lПосмотреть избранное'
+    favoriteslore: '&8Shift + клик на любую голову|&8, чтобы сохранить её в избранное.'
+    discord: '&9&lDiscord'
+    discordlore: '&8Добавить или запросить новые головы можно|&8в нашем Discord сервере.'
+event:
+  general:
+    nopermission: '&cУ вас недостаточно прав.'
+  buyhead:
+    cannotafford: '&cУ вас недостаточно средств.'
+command:
+  give:
+    notonline: '&cИгрок &4%name% &cне найден.'
+    notfound: '&cГолова &4%name%&c не найдена.'
+    success: '&7Вы выдали игроку &6%player% &7голову под названием &6%name%&7.'
+    receive: '&7ам выдали голову под названием &6%name%&7.'
+  add:
+    success: '&7Голова &6%name% &7успешно добавлена.'
+    exists: '&cДанная голова уже существует.'
+  givetoken:
+    success: '&7Вы дали игроку &6%player% %amount% &7токенов.'
+    receive: '&7Вам дали &6%amount% &7токенов.'

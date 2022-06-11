@@ -1,0 +1,64 @@
+YouDisplay: ' &7(You)'
+StartingDisplay: '&fStarting in &a<time>'
+SearchingDisplay: '&fSearching players...'
+ScoreboardPath:
+  DEFAULT:
+    Waiting-Enabled: true
+    Waiting-Title: '&e BED WARS'
+    Waiting:
+      Lines:
+      - ''
+      - '&fMap: &a<mapName>'
+      - '&fPlayers: &a<inGame>/<max>'
+      - ''
+      - <statusDisplay>
+      - ' '
+      - '&fServer: &aBedWars122G'
+      - ''
+      - '&eRealCraft.net'
+    Game-Enabled: true
+    Game-Title: '&e BED WARS'
+    Game:
+      Lines:
+      - ''
+      - '<nextEvent>:'
+      - '&a<time>'
+      - ''
+      - '&c&lR &fRed: <isAliveRed>'
+      - '&9&lB &fBlue: <isAliveBlue>'
+      - ''
+      - '&eRealCraft.net'
+  Solo:
+    Game-Enabled: true
+    Game-Title: '&e BED WARS'
+    Game:
+      Lines:
+      - '------------------'
+      - <nextEvent> :&a<time>
+      - '        Teams:'
+      - ' &f&1Blue: <isAliveBlue>'
+      - ' &f&aGreen: <isAliveGreen>'
+      - ' &f&3Aqua: <isAliveAqua>'
+      - ' &f&4Red: <isAliveRed>'
+      - ' &f&5Purple: <isAlivePurple>'
+      - ' &f&6Orange: <isAliveOrange>'
+      - ' &f&aLime: <isAliveLime>'
+      - ' &f&eYellow: <isAliveYellow>'
+      - ' '
+      - '&4R&6e&ea&al&2C&9r&1a&df&5t'
+      - '------------------'
+    Waiting-Enabled: true
+    Waiting-Title: '&e BED WARS'
+    Waiting:
+      Lines:
+      - '-----------------------------'
+      - '&fMap: &a<mapName>'
+      - ' '
+      - '&fPlayers: &a<inGame>/<max>'
+      - ' '
+      - ' '
+      - <statusDisplay>
+      - '&fMap wars &eBuild &fBy:'
+      - '&9Midna&9plays'
+      - '&4R&6e&ea&al&2C&9r&1a&df&5t'
+      - '-----------------------------'

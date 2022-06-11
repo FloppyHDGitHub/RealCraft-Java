@@ -1,0 +1,56 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHeads&7]'
+  word:
+    page: Sayfa
+    query: Sıra
+    favorites: Favoriler
+    everyone: herkes
+  phrase:
+    latestpack: Son Sürüm
+  search:
+    global: '&6Arama sıranı gir.'
+    refine: '&6Aramanı düzeltmek için arama terimi gir.'
+    nonefound: '&cHiç kafa bulunamadı.'
+    canceled: '&cArama iptal edildi.'
+  head:
+    staffpicked: '&8Yetkili Favorisi'
+    id: '&8ID: &7%id%'
+    cost: '&8Fiyatı: &7%cost%'
+gui:
+  heads:
+    refine: '&9Derin Arama'
+    search: '&9Arama oluştur'
+    categories: '&cKategorilere dön'
+  general:
+    previous: '&6Önceki sayfa'
+    next: '&6Sonraki Sayfa'
+  overview:
+    title: EpicHeads (%count% heads)
+    search: '&a&lArama'
+    headname: '&c&l%name%'
+    headlore: '&e%count% kafa'
+    packlore: '&e%pack%'
+    viewfavorites: '&6&lFavorileri Görüntüle'
+    favoriteslore: '&8Bir kafayı favori olarak|&8 kaydetmek için sağ tıkla.'
+    discord: '&9&lDiscord'
+    discordlore: Discord sunucumuzda kafa |ekle veya istekte bulun.
+event:
+  general:
+    nopermission: '&cBu komutu kullanmak için yetkin yok.'
+  buyhead:
+    cannotafford: '&cBu kafayı almak için yeterli paran yok.'
+command:
+  give:
+    notonline: '&4%name%&c ismindeki oyuncu bulunamadı.'
+    notfound: '&4%name%&c ismindeki kafa bulunamadı.'
+    success: '&6%player%&7 oyuncusuna &6%name%&7 ismindeki kafayı verdin.'
+    receive: '&7Sana &6%name%&7 ismindeki kafa verildi.'
+  add:
+    success: '&6%name% ismindeki kafa başarıyla eklendi.'
+    exists: '&cBu kafa zaten var.'
+  givetoken:
+    success: '&6%player%&7 oyuncusuna &6%amount%&7 oyuncu kafası jetonu verdin.'
+    receive: '&7Sana &6%amount%&7 oyuncu kafası jetonu verildi.'

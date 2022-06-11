@@ -1,0 +1,55 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 25.43.65.110
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1638355088668
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1638357060472
+  login: 1638356829991
+money: '7883900002680.0'
+last-account-name: Midnaplays
+logoutlocation:
+  world: 50dfde71-e6b0-4460-a52c-aef95c8199ba
+  world-name: bw-l1
+  x: 10.647771391833938
+  y: 48.0
+  z: 4.717712450503653
+  yaw: 47.498779296875
+  pitch: 63.749916076660156
+lastlocation:
+  world: 50dfde71-e6b0-4460-a52c-aef95c8199ba
+  world-name: bw-l1
+  x: 7.728652539143468
+  y: 19.5
+  z: 3.365941807323891
+  yaw: -87.89997100830078
+  pitch: 34.95001220703125
+homes:
+  h:
+    world: c0e5abf1-4224-434d-9aee-4987a59065ca
+    world-name: PlotWorld
+    x: -29.17198112335063
+    y: 65.0
+    z: -49.14903907501356
+    yaw: -200.95513916015625
+    pitch: 25.572452545166016
+  bwtestbuild:
+    world: 97757b6a-cbfb-4910-8dcc-5665c42d2198
+    world-name: BW[12x1]SkyShip
+    x: 0.6259684212392144
+    y: 67.0
+    z: 0.5664314137222549
+    yaw: -276.200927734375
+    pitch: 84.60000610351562

@@ -1,0 +1,142 @@
+Party:
+  Enable: true
+  Prefix: '&0[&3RealCraft&0] &5--> &9Party &7|'
+  CommandForwarding:
+    Enable: true
+    CommandsToForward:
+    - lobby
+    - bw join
+  CommandAliases:
+  - parties
+  - p
+  DisabledWorlds:
+  - build
+  PartyChat:
+    Enable: true
+    Format: '@party'
+    CheckForAbusiveWords: true
+  MaxPartySize: 5
+  InviteExpireTime: 300
+  PartyMembersCanPvP: false
+  InviteFriendsOnly: true
+  ClickableMessages: true
+  CreateInventory:
+    InventoryTitle: '&9Currently in no Party'
+    InventorySize: 36
+    CreateItem:
+      Name: '&aCreate a Party'
+      ItemID: '35:5'
+      Lore: ''
+      InventorySlot: 14
+      Base64Value: ''
+    BackItem:
+      Name: '&7Back to your Friends'
+      ItemID: '330'
+      Lore: ''
+      InventorySlot: 28
+      Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19
+    Placeholders:
+      ItemID: '160:7'
+      Base64Value: ''
+      InventorySlots:
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+    CustomItems: '[]'
+  PartyInventory:
+    InventoryTitle: '&aYour Party:'
+    InventorySize: 36
+    MemberItem:
+      Name: '&a%NAME%'
+      Lore: //&7Click to open Options!
+    LeaderItem:
+      Name: '&c%NAME%'
+      Lore: //&7Click to open Options!
+    LeaveItem:
+      Name: '&cLeave the Party'
+      ItemID: '35:14'
+      Lore: ''
+      InventorySlot: 36
+      Base64Value: ''
+    BackItem:
+      Name: '&7Back to your Friends'
+      ItemID: '330'
+      Lore: ''
+      InventorySlot: 28
+      Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19
+    Placeholders:
+      ItemID: '160:7'
+      Base64Value: ''
+      InventorySlots:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+    CustomItems: '[]'
+  EditMemberInventory:
+    InventoryTitle: '&a%NAME%''s Options'
+    InventorySize: 9
+    PromoteItem:
+      Name: '&6Promote %NAME%'
+      ItemID: '266'
+      Lore: '&7Click here to make %NAME%//&7a party leader!'
+      InventorySlot: 4
+      Base64Value: ''
+    DemoteItem:
+      Name: '&7Demote %NAME%'
+      ItemID: '265'
+      Lore: '&7Click here to make %NAME%//&7to a normal member!'
+      InventorySlot: 6
+      Base64Value: ''
+    RemoveItem:
+      Name: '&cRemove from Party'
+      ItemID: '35:14'
+      Lore: ''
+      InventorySlot: 8
+      Base64Value: ''
+    BackItem:
+      Name: '&7Back to your Party'
+      ItemID: '330'
+      Lore: ''
+      InventorySlot: 1
+      Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19
+    Placeholders:
+      ItemID: '160:7'
+      Base64Value: ''
+      InventorySlots:
+      - 2
+      - 3
+      - 5
+      - 7
+      - 9
+    CustomItems: '[]'

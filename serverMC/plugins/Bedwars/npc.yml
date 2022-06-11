@@ -1,0 +1,14 @@
+'1':
+  Location: LobbyAll,217.5,151.0,115.5,91.02896,-10.500059
+  SkinName: FloppyHD_0773
+  ArenaType: Solo
+  Lines:
+  - 'SOLO '
+NPC:
+  '32':
+    Location: LobbyAll,217.5015296727708,151.0,115.5056733841443,89.97772,-2.4000187
+    SkinName: FloppyHD_0773
+    ArenaType: Solo
+    Lines:
+    - Bedwars
+    - 'Solo '

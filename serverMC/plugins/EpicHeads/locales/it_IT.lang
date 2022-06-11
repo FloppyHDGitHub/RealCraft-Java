@@ -1,0 +1,59 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHeads&7]'
+  word:
+    page: Pagina
+    query: Parola chiave
+    favorites: Preferiti
+    everyone: chiunque
+    playerheads: Teste
+    latestpack: Ultimo Pacco
+  phrase:
+    latestpack: Ultimo Pacco
+  search:
+    global: '&6Inserisci la parola chiave.'
+    refine: '&6inserisci un termine di ricerca per affinare la ricerca.'
+    nonefound: '&cNessuna testa trovata..'
+    canceled: '&cRicerca Cancellata.'
+  head:
+    staffpicked: '&8Preferito dello staff'
+    id: '&8ID: &7%id%'
+    cost: '&8Costo: &7%cost%'
+gui:
+  heads:
+    refine: '&9Affina la ricerca'
+    search: '&9Crea ricerca'
+    categories: '&cTorna alle categorie'
+    delete: '&cMiddle-Click per eliminare'
+  general:
+    previous: '&6Pagina precendente'
+    next: '&6Pagina successiva'
+  overview:
+    title: EpicHeads (%count% teste)
+    search: '&a&lCerca'
+    headname: '&c&l%name%'
+    headlore: '&e%count% teste'
+    packlore: '&e%pack%'
+    viewfavorites: '&6&lCisualizza Preferiti'
+    favoriteslore: '&8Shift click una testa qualunque|&8Per salvarla tra i preferiti.'
+    discord: '&9&lDiscord'
+    discordlore: '&8Aggiugni o richiedi altre teste|&8nel nostro server discord.'
+event:
+  general:
+    nopermission: '&cNon hai i permessi per usare questo comando.'
+  buyhead:
+    cannotafford: '&cNon ti puoi permettere questa testa.'
+command:
+  give:
+    notonline: '&cIl giocatore &4%name% &cNon può essere trovato.'
+    notfound: '&cLa testa &4%name%&c non può essere trovata .'
+    success: '&7Ti è stata data &6%player% &7a testa chiamat &6%name%&7.'
+    receive: '&7Ti è stata data una testa chiamata &6%name%&7.'
+  add:
+    success: '&7Testa aggiunta &6%name% &7con successo.'
+    exists: '&cQuesta testa già esiste.'
+  givetoken:
+    success: '&7Hai dato a &6%player% %amount% &7player head tokens.'
+    receive: '&7Hai ricevuto &6%amount% &7player head tokens.'

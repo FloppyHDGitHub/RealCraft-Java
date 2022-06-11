@@ -1,0 +1,33 @@
+ArenaType:
+  Solo:
+    BedsBroken: 23
+    BedsLost: 5
+    Deaths: 42
+    FinalDeaths: 0
+    GamesPlayed: 26
+    Kills: 49
+    Losses: 5
+    Wins: 21
+    QuickBuy:
+      '0': BLOCKS_WOOL
+      '1': MELEE_STONE_SWORD
+      '7': BLOCKS_END_STONE
+      '8': MELEE_IRON_SWORD
+      '14': BLOCKS_WOOD
+      '2': PERMANENT_CHAINMAIL_ARMOR
+      '3': UPGRADABLE_PICKAXE
+      '4': RANGED_NORMAL-BOW
+      '5': UTILITY_FIREBALL
+      '6': UTILITY_ENDER_PEARL
+      '9': PERMANENT_IRON_ARMOR
+      '10': UPGRADABLE_AXE
+      '11': RANGED_POWER-PUNCH-BOW
+      '12': UTILITY_GOLDEN-APPLE
+      '13': UTILITY_COB_WEB
+      '15': MELEE_DIAMOND_SWORD
+      '16': PERMANENT_DIAMOND_ARMOR
+      '17': TOOLS_SHEARS
+      '18': RANGED_ARROW
+      '19': UTILITY_TNT
+      '20': UTILITY_WATER_BUCKET
+SkinName: VILLAGER

@@ -1,0 +1,56 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHeads&7]'
+  word:
+    page: Side
+    query: Spørsmål
+    favorites: Favoritter
+    everyone: Alle sammen
+  phrase:
+    latestpack: Nyeste pakke
+  search:
+    global: '&6Skriv inn spørsmålet ditt.'
+    refine: '&6Skriv inn et søkeord for å avgrense søket.'
+    nonefound: '&cIngen hoder funnet..'
+    canceled: '&cSøk kansellert.'
+  head:
+    staffpicked: '&8Personsalet sine Favoritter'
+    id: '&8ID: &7%id%'
+    cost: '&8Pris: &7%cost%'
+gui:
+  heads:
+    refine: '&9Refiner Søk'
+    search: '&9Lag Søk'
+    categories: '&cTilbake til kategorier'
+  general:
+    previous: '&6Forige side'
+    next: '&6Neste side'
+  overview:
+    title: EpicHeads (%count% hoder)
+    search: '&a&lSøk'
+    headname: '&c&l%name%'
+    headlore: '&e%count% hoder'
+    packlore: '&e%pack%'
+    viewfavorites: '&6&lSe favoritter'
+    favoriteslore: '&8Shift klikk på hvilket som helst hodet|&8for å lagre det som en favoritt.'
+    discord: '&9&lDiscord'
+    discordlore: '&8legg til nye hoder eller send inn en forespørsel|&8i discord serveren vår.'
+event:
+  general:
+    nopermission: '&cDu har ikke tillatelse til å bruke denne kommandoen.'
+  buyhead:
+    cannotafford: '&cDu har ikke råd til dette hodet.'
+command:
+  give:
+    notonline: '&cSpilleren &4%name% &kunne ikke bli funnet.'
+    notfound: '&cHodet &4%name%&c kunne ikke bli funnet.'
+    success: '&7Du har gitt &6%player% &7hodet kalt &6%name%&7.'
+    receive: '&7Du har fått et hodet kalt &6%name%&7.'
+  add:
+    success: '&7Lagt til hodet &6%name% &7vellyket.'
+    exists: '&cDet hodet eksisterer allerede.'
+  givetoken:
+    success: '&7Du ga &6%player% %amount% &7spiller hodet tokens.'
+    receive: '&7Du har blitt gitt &6%amount% &7spiller hodet tokens.'

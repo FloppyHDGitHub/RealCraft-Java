@@ -1,0 +1,15 @@
+Mystery-Vaults:
+  '1':
+    BlockFace: EAST
+    Location:
+      world: LobbyAll
+      x: 16.0
+      y: 72.0
+      z: -15.0
+  '2':
+    BlockFace: NORTH
+    Location:
+      world: LobbyAll
+      x: 16.0
+      y: 72.0
+      z: 37.0

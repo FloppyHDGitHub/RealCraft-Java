@@ -1,0 +1,845 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 36
+npc:
+  '4':
+    name: ''
+    uuid: ab8ccca6-00cc-436e-83c6-7f4405742baa
+    traits:
+      type: PLAYER
+      sneak:
+        sneaking: false
+      location:
+        bodyYaw: 102.727356
+        world: LobbyAll
+        x: '217.5002'
+        y: '-1222783.8588'
+        z: '115.4754'
+        yaw: '102.7274'
+        pitch: '5.55'
+      inventory: {}
+      scoreboardtrait: {}
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: sneak,owner,skintrait,type,scoreboardtrait,equipment,spawned,inventory,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    name: ''
+    uuid: d8f78ad9-2d03-49e4-9d0d-d4166082e4f6
+    traits:
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      inventory: {}
+      spawned: true
+      type: PLAYER
+      scoreboardtrait: {}
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      sneak:
+        sneaking: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,spawned,inventory,equipment,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '11':
+    name: ''
+    uuid: fd066165-5dcb-48e9-b5c9-ae7d2a2e4182
+    traits:
+      location:
+        bodyYaw: 125.22998
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      sneak:
+        sneaking: false
+      type: PLAYER
+      scoreboardtrait: {}
+      inventory: {}
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,spawned,inventory,equipment,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '12':
+    name: ''
+    uuid: 3f0d5658-d67c-47eb-b371-9540ab40f809
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      inventory: {}
+      type: PLAYER
+      scoreboardtrait: {}
+      spawned: true
+      sneak:
+        sneaking: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: sneak,owner,skintrait,type,scoreboardtrait,inventory,equipment,spawned,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '13':
+    name: ''
+    uuid: e613dc4a-392c-44e0-88c4-f9a2cb0ab601
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      scoreboardtrait: {}
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      spawned: true
+      inventory: {}
+      sneak:
+        sneaking: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,equipment,inventory,spawned,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '14':
+    name: ''
+    uuid: cd55ccf0-7480-4b84-9e8f-bb108b7bae55
+    traits:
+      sneak:
+        sneaking: false
+      type: PLAYER
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      scoreboardtrait: {}
+      inventory: {}
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,spawned,inventory,equipment,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '15':
+    name: ''
+    uuid: 6a0dca44-e956-4839-b53b-4fc4dd0984e7
+    traits:
+      sneak:
+        sneaking: false
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      scoreboardtrait: {}
+      inventory: {}
+      type: PLAYER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: sneak,owner,skintrait,type,scoreboardtrait,equipment,spawned,inventory,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '16':
+    name: ''
+    uuid: 1cc3c3e4-a15f-4d48-99bd-82ff2d1ca938
+    traits:
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      spawned: true
+      inventory: {}
+      sneak:
+        sneaking: false
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      type: PLAYER
+      scoreboardtrait: {}
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,spawned,inventory,equipment,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '17':
+    name: ''
+    uuid: bf23aad3-fb85-488e-aca5-199a00798f1b
+    traits:
+      inventory: {}
+      type: PLAYER
+      spawned: true
+      scoreboardtrait: {}
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      sneak:
+        sneaking: false
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,inventory,spawned,equipment,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '18':
+    name: ''
+    uuid: 94f2e1cc-7384-4108-98fc-6a3b0b245f39
+    traits:
+      inventory: {}
+      scoreboardtrait: {}
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      sneak:
+        sneaking: false
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      type: PLAYER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,inventory,spawned,equipment,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '19':
+    name: ''
+    uuid: e6591597-43d5-4005-bdf1-d9e0824b11a0
+    traits:
+      type: PLAYER
+      spawned: true
+      sneak:
+        sneaking: false
+      inventory: {}
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      scoreboardtrait: {}
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,spawned,inventory,equipment,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '20':
+    name: ''
+    uuid: 9d37013c-a667-4c55-80c0-62c4a7bbaeeb
+    traits:
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      sneak:
+        sneaking: false
+      spawned: true
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      inventory: {}
+      scoreboardtrait: {}
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,inventory,spawned,equipment,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '21':
+    name: ''
+    uuid: 16096707-c00b-4666-ad95-e847f36a1b07
+    traits:
+      type: PLAYER
+      inventory: {}
+      sneak:
+        sneaking: false
+      scoreboardtrait: {}
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,equipment,spawned,inventory,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '22':
+    name: ''
+    uuid: 7d3e4292-d82f-4d41-8040-56dd3a71295e
+    traits:
+      sneak:
+        sneaking: false
+      scoreboardtrait: {}
+      type: PLAYER
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      spawned: true
+      inventory: {}
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: sneak,owner,skintrait,type,scoreboardtrait,spawned,inventory,equipment,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '23':
+    name: ''
+    uuid: b2192d41-c7e9-4ce7-a1bc-6d345a8ae87d
+    traits:
+      type: PLAYER
+      spawned: true
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      inventory: {}
+      scoreboardtrait: {}
+      sneak:
+        sneaking: false
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,equipment,inventory,spawned,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '24':
+    name: ''
+    uuid: acf1fafa-a5b3-4b7f-a4e3-00d533565179
+    traits:
+      inventory: {}
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      sneak:
+        sneaking: false
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      spawned: true
+      type: PLAYER
+      scoreboardtrait: {}
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,inventory,equipment,spawned,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '25':
+    name: ''
+    uuid: 0092dfb1-6bad-4d2d-86d8-c9284ea2b9fb
+    traits:
+      type: PLAYER
+      spawned: true
+      inventory: {}
+      scoreboardtrait: {}
+      sneak:
+        sneaking: false
+      location:
+        bodyYaw: 125.22998
+        world: LobbyAll
+        x: '216.4438'
+        y: '126.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: sneak,owner,skintrait,type,scoreboardtrait,inventory,spawned,equipment,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '26':
+    name: ''
+    uuid: 3b3270ed-00cc-4f0f-be67-0fa8051162e8
+    traits:
+      location:
+        bodyYaw: 125.22998
+        world: LobbyAll
+        x: '216.4438'
+        y: '130.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      scoreboardtrait: {}
+      inventory: {}
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      spawned: true
+      sneak:
+        sneaking: false
+      type: PLAYER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,inventory,spawned,equipment,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '27':
+    name: ''
+    uuid: 83f6a764-276a-45db-851c-1decd4a70c72
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '130.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      spawned: true
+      inventory: {}
+      sneak:
+        sneaking: false
+      type: PLAYER
+      scoreboardtrait: {}
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: sneak,owner,skintrait,type,scoreboardtrait,spawned,inventory,equipment,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '28':
+    name: ''
+    uuid: 9144031e-ca66-4e5d-9a88-441a96601ba6
+    traits:
+      scoreboardtrait: {}
+      inventory: {}
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '130.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      type: PLAYER
+      spawned: true
+      sneak:
+        sneaking: false
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: sneak,owner,skintrait,type,scoreboardtrait,equipment,inventory,spawned,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '29':
+    name: ''
+    uuid: ef4745b1-839f-4016-9ab6-85d0518df7ea
+    traits:
+      location:
+        bodyYaw: 125.23
+        world: LobbyAll
+        x: '216.4438'
+        y: '130.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      type: PLAYER
+      inventory: {}
+      spawned: true
+      sneak:
+        sneaking: false
+      scoreboardtrait: {}
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,spawned,inventory,equipment,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '30':
+    name: ''
+    uuid: 9381c28f-34de-4460-8b28-f16b7bfd7e76
+    traits:
+      scoreboardtrait: {}
+      type: PLAYER
+      location:
+        bodyYaw: 125.22998
+        world: LobbyAll
+        x: '216.4438'
+        y: '130.0'
+        z: '117.4384'
+        yaw: '125.23'
+        pitch: '-5.8501'
+      spawned: true
+      inventory: {}
+      sneak:
+        sneaking: false
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: '&e<playersplaying>'
+        updateSkins: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,sneak,skintrait,type,scoreboardtrait,spawned,inventory,equipment,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '32':
+    metadata:
+      cached-skin-uuid-name: floppyhd_0773
+      cached-skin-uuid: 9fc55c8e-ee33-4f8f-a2a0-eaa4fbb5eb12
+    name: ''
+    uuid: 81526055-d1e1-4e7b-9672-b29e1ec70bcd
+    traits:
+      spawned: true
+      scoreboardtrait: {}
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      waypoints:
+        linear:
+          cachePaths: false
+          cycle: false
+        provider: linear
+      sneak:
+        sneaking: false
+      location:
+        bodyYaw: 99.91368
+        world: LobbyAll
+        x: '217.5015'
+        y: '151.0'
+        z: '115.5057'
+        yaw: '89.9777'
+        pitch: '-2.4'
+      type: PLAYER
+      inventory: {}
+      poses: {}
+      skintrait:
+        fetchDefaultSkin: true
+        signature: fbG1h6ddBAeTzzwvdANXct6t7rCSGSagecueSVyRW2HB9HM96SV1gnKop1JzjktFkKHG+Epi5lPb6vgv5TeD7HljDk2PriaAXzzgvkuRpR0v7VyV/LG9WS+LPG1n6drm3QiTWZoLdnkEkng14MmEFS6JqlOh3Y7vxfV41ifc2ZKJR4B0DsP0geedo1/yhq0v+VgewjrXhRRnwSJa7qjWnVcEAyymsXmg8uEgVI8iHuvYOAbZMsJEc4LsdLwRbRlcexPrbrN/AbGQq8+btBoG30o+oNN/2lLGAZiwCUtFOVgA0T1GAbb8EaHpvLz6pOOmZpQ1nR3/LvgEuUPttVjQ4+gmzNs5jTnzw5in+RIAsINgSZGh6qcwNYLX4HK0OdKRzYiU58nCC6/hlZP79bGGGDysNxHf+X93CrUeqvG7FVNWZ0MlRG9aquULyhDEm97lYaloEiIAPQFRWh/GeRv0mK7fJLqlXfFJ46kmQhaGMp4Y1S1p1Fq4NfT3GDQUr66QO1fylIzzfNmyQSj1WfOC61Q1ebOlr/6aux22qDYHrCD6KafkIL4vAEMTWX0zqNb5+UpnESJaLEjQT4Y2EVMM8yOCFMF8u0MIJj5VlqNIlyTKKOxHCbYANFyI6JekPdbvnPmGuOro0ZC+YKTUKPXwzTVJfEoW8iqdKwwMTI5AGdI=
+        skinName: floppyhd_0773
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjg4NzkwNTY4NCwKICAicHJvZmlsZUlkIiA6ICI5ZmM1NWM4ZWVlMzM0ZjhmYTJhMGVhYTRmYmI1ZWIxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGbG9wcHlIRF8wNzczIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RmMzJmNDM5NGEzZDYyN2M5ZjgwY2RkMWQxNWM5MTY5ZmE0Yzk2NmE1YzBiNjIwMWVkODIzZDE3ZWMxNzkzN2EiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: bw randomjoin Solo
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: bw randomjoin Solo
+            hand: BOTH
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '2':
+            command: bw randomjoin Solo
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: owner,skintrait,poses,lookclose,waypoints,spawned,commandtrait,sneak,type,scoreboardtrait,equipment,inventory,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '36':
+    metadata:
+      cached-skin-uuid-name: floppyhd_0773
+      cached-skin-uuid: 9fc55c8e-ee33-4f8f-a2a0-eaa4fbb5eb12
+    name: FloppyHD_0773
+    uuid: 4045b0fc-7c5f-4e21-890e-5a1be22ee9f7
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: tZeFjoTIMeb0gbiQ/lu1ex96wd0PtGy2gG16vLMmAwvn0GgMlVKrYjiBSQ6VftGHC8eIcugUiXEACKWeSneQPgxPydMBpxBF4T35XWiTTDbH/EIitBFrvkV5vzlMXRY6cds7YGKSc1k8KK4L2bwzFvpIytXl0t6VnGgkpaPRS7CIYhKN6Z/9p+le3G7Ehu9cz3yIb2/Np0U/rfUfjJF6MIrqLUGqBFeak5T2EH/oAiiSf04PCpC7h+5xszDh5Exm6th1Hd9bhL6fMrCJQOsGdR+BQk4z8qm8h1S+qj2nY4PF4tuyYao7mHwMu0s5g+w4PJnbQGh24DAOIWUpj3npgMFex51JtdEtFT7jAu2v2rvJWg+nNdc96HU7ahqE6EsDqxRkmjNyGV6zQdjfIeAdIrrn/G3yhjCiTlKPvFlT/mtpGBboBvyxn8E0kY3+P0NEBvEV6FWOYB7/F9SNsiI4c+ZUxW6sJgEFBATQP46VdkDw1+tN2xquPsn5warEYiJduwIi/E86fPho44WIfDNc5Kopn1VHxIN4gelEk6Z0bijCW1++e0CzHBJ6qh6QUkkCKRZ+pHbC1XsrIje2wcaLE4opykq1iCvYF4nFoDak39ApIBsMHzlzD207hf+ZzNBTHH4ojajINbQtxELgxpLk81ovjTf4/8HP2Qgdh63ZtZY=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjkyNjUzMjg5NiwKICAicHJvZmlsZUlkIiA6ICI5ZmM1NWM4ZWVlMzM0ZjhmYTJhMGVhYTRmYmI1ZWIxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGbG9wcHlIRF8wNzczIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RmMzJmNDM5NGEzZDYyN2M5ZjgwY2RkMWQxNWM5MTY5ZmE0Yzk2NmE1YzBiNjIwMWVkODIzZDE3ZWMxNzkzN2EiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+        updateSkins: false
+      scoreboardtrait: {}
+      location:
+        bodyYaw: -130.72104
+        world: BW[12x1]SkyShip
+        x: '-129.4522'
+        y: '-2737652.3531'
+        z: '3.7'
+        yaw: '-130.721'
+        pitch: '-9.1334'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory: {}
+      spawned: true
+      type: PLAYER
+      sneak:
+        sneaking: false
+      owner:
+        owner: Midnaplays
+        uuid: a636a879-c51d-4feb-a3e5-844a347616aa
+    traitnames: sneak,owner,skintrait,lookclose,type,scoreboardtrait,equipment,spawned,inventory,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '35':
+    metadata:
+      cached-skin-uuid-name: midnaplays
+      cached-skin-uuid: a636a879-c51d-4feb-a3e5-844a347616aa
+    name: Midnaplays
+    uuid: cfe0ca3a-7c83-4a30-b8bf-6eb324e89731
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: Ad1wEd7LFrWkKKcX0Zp+D48EOiQ2KCSzfnTRq8lOsojX0Eh3tVKSS1vi36YOrIA2GYLTIlI+KbSWKK0uSUUWG3EQqPEZ67GqMETc7WFXptp9nAPqrGors/unlso/h8V5d6D0/zpXuDBKvgh96qsS7iBHVAKzyglKaRm5XD7zzC0xJRkAwQq7rOEeBTiDRbx9FZHJuLVzopWp3Q6b8w1uY2Su8GdUIu4gNRGwXD/7IpptmpYTZsezrSwXTuNA7bG+NXPeaubfQLUgCVg7UGM67qtYaIspPx+cCRAbKqBnBKy6PWpgNXgadm7M0RjlzA0OMorLVFXNSloqP9jB1Usdj4v8anH6CzO6nFJ9blaZRnaeVWH3Gdt6NCGPZ1FTMOr6jucs0cEYDjHXIOBxTZOHdurIDCe4g07WLhOX1PsI8Yi/Y2Ipnx+mtlB/LRDps4DyHbf/TulTfEG1WDR4F8EbPcbR/KOf28TxflxAtmQNnjZHCdAx33FGSxJlFKfSyyAq/sIykO3vW+zgFDDHL4+ltWDR2tvw9Rvn/3yl9NECSm6iTOZdkeiOM08pY3FPwcIl86lVm4TQp0+D3z4eIgs0ATSfBpstuCYYMdR3MfSCkDzhTZFIY3s9mQ2QpdB94AfY7OdsVjRR1GApETeboIPwVNvvM1Nbq8W3fPRbkp26A/I=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjkyNjQ0OTI3NSwKICAicHJvZmlsZUlkIiA6ICJhNjM2YTg3OWM1MWQ0ZmViYTNlNTg0NGEzNDc2MTZhYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaWRuYXBsYXlzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUxNWRkODI5OTg4OTc5MjBhZThhYTAyMTJlY2FiYjQxZDJkMTQxOTQxYWRjZTU0MTU1ZDcxNzM2OWRlYzA4NzMiCiAgICB9CiAgfQp9
+        updateSkins: false
+      scoreboardtrait: {}
+      location:
+        bodyYaw: -50.70658
+        world: BW[12x1]SkyShip
+        x: '-129.4988'
+        y: '-2737585.2351'
+        z: '-2.3'
+        yaw: '-50.7066'
+        pitch: '-9.2043'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory: {}
+      followtrait:
+        active: false
+        followingUUID: a636a879-c51d-4feb-a3e5-844a347616aa
+        protect: false
+      spawned: true
+      type: PLAYER
+      sneak:
+        sneaking: false
+      owner:
+        owner: Midnaplays
+        uuid: a636a879-c51d-4feb-a3e5-844a347616aa
+    traitnames: sneak,owner,skintrait,lookclose,type,scoreboardtrait,inventory,spawned,equipment,followtrait,location,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

@@ -1,0 +1,205 @@
+ArenaType:
+  Solo:
+    Rejoin: true
+    TablistTeams: true
+    SpawnNPCsOnEmptyTeams: true
+    NPCsSpawnDelay: 25
+    BlockedCommands:
+      EnableForOp: false
+      List:
+      - say
+      - gamemode
+      - mute
+      - spawn
+    DuringGame:
+      AllowTeleporting:
+        OP: true
+        Players: false
+      AllowChangingWorld:
+        OP: true
+        Players: false
+    FloorGeneratorLimit:
+      Iron:
+        Enabled: true
+        Amount: 68
+      Gold:
+        Enabled: true
+        Amount: 12
+      Emerald:
+        Enabled: true
+        Amount: 2
+    EventDisplay:
+      EmeraldUpgrade: Emerald Upgrade
+      DiamondUpgrade: Diamond Upgrade
+      BedGone: Bed Gone
+      TimeLeft: Time Left
+    BlockPlaceProtection:
+      AirGenerators:
+        Enabled: true
+        ProtectionRadius: 2.0
+      ShopLocation:
+        Enabled: true
+        ProtectionRadius: 3.0
+      UpgradeLocation:
+        Enabled: true
+        ProtectionRadius: 3.0
+      SpawnLocation:
+        Enabled: true
+        ProtectionRadius: 3.0
+    ShopHologram:
+      Lines:
+      - '&bITEM SHOP'
+      - ''
+    UpgradeHologram:
+      Lines:
+      - ''
+      - '&bUPGRADES'
+      - ''
+    DiamondGenerator:
+      TextLines:
+      - '&6<tier>'
+      - '&b&lDiamond'
+      - '&eSpawns in &c<spawnsIn> &eseconds'
+      Tier:
+        I:
+          SpawnTime: 46
+          SpawnAmount: 1
+          Limit:
+            Enabled: true
+            Amount: 4
+        II:
+          Message: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &bDiamond generators &ehave been upgraded to Tier &6II'
+          SpawnTime: 23
+          SpawnAmount: 1
+          Limit:
+            Enabled: true
+            Amount: 4
+        III:
+          Message: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &bDiamond generators &ehave been upgraded to Tier &6III'
+          SpawnTime: 13
+          SpawnAmount: 1
+          Limit:
+            Enabled: true
+            Amount: 4
+    EmeraldGenerator:
+      TextLines:
+      - '&6<tier>'
+      - '&2&lEmerald'
+      - '&eSpawns in &c<spawnsIn> &eseconds'
+      Tier:
+        I:
+          SpawnTime: 50
+          SpawnAmount: 1
+          Limit:
+            Enabled: true
+            Amount: 2
+        II:
+          Message: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &2Emerald generators &ehave been upgraded to Tier &6II'
+          SpawnTime: 25
+          SpawnAmount: 1
+          Limit:
+            Enabled: true
+            Amount: 2
+        III:
+          Message: '&0[&3Realcraft&0] [&5->&aBW&0]&7 &2Emerald generators &ehave been upgraded to Tier &6III'
+          SpawnTime: 15
+          SpawnAmount: 1
+          Limit:
+            Enabled: true
+            Amount: 2
+    IceFishLimit: 3
+    IceFishName: <teamColor><teamName>'s Silverfish
+    IronGolemLimit: 3
+    IronGolemName: <teamColor><teamName>'s Iron Golem
+    HealthBar:
+      Enabled: true
+      Display: ""
+    SeparateChatArena: false
+    ModifiedChat:
+      InWaiting:
+        Enabled: true
+        Format: '&7<player>: <message>'
+      Spectator:
+        Enabled: true
+        Format: '&7[SPECTATOR] <player>: <message>'
+      Match:
+        Enabled: true
+        Format: '<playerTeamColor>[<playerTeam>] &7<player>: <message>'
+      Shout:
+        Format: '&6[SHOUT] <playerTeamColor> [<playerTeamNameUpperCase>] &7<player>:
+          <message>'
+    BedBreakCommands:
+      Enabled: true
+      Commands:
+      - alonsolevels addexp {PLAYER} 25 true
+      - eco give <player> 50
+    FinalKillCommands:
+      Enabled: true
+      Commands:
+      - alonsolevels addexp {PLAYER} 50 true
+      - eco give <player> 75
+    LoserCommands:
+      Enabled: true
+      Commands:
+      - alonsolevels addexp {PLAYER} 5 true
+      - eco give <player> 5
+    WinnerCommands:
+      Enabled: true
+      Commands:
+      - alonsolevels addexp {PLAYER} 100 true
+      - eco give <player> 100
+    ArenaSign:
+      FirstLine: '&5&lBedwars'
+      SecondLine: <mode>
+      ThirdLine: <arenaName>
+      FourthLine: '&7<inGame>/<maxPlayers>'
+      InGameDisplay: '&cIn Game'
+      InWaitingDisplay: '&aIn waiting'
+    BedDestroyedTitle:
+      Enabled: true
+      Title: '&cBED DESTROYED!'
+      SubTitle: '&fYou will no longer respawn!'
+      Stay: 20
+      FadeIn: 20
+      FadeOut: 20
+    CountdownTitle:
+      Enabled: true
+      Title: '&a<seconds>'
+      SubTitle: ' '
+      Stay: 20
+      FadeIn: 20
+      FadeOut: 20
+    StartTitle:
+      Title: '&a&lGO!'
+      SubTitle: ' '
+      Stay: 20
+      FadeIn: 20
+      FadeOut: 20
+    WinTitle:
+      Enabled: true
+      Title: '&6&lWINNER'
+      SubTitle: ''
+      Stay: 20
+      FadeIn: 20
+      FadeOut: 20
+    RespawnTitle:
+      Enabled: true
+      Title: '&cYOU DIED!'
+      SubTitle: '&eYou will be respawned in <seconds> seconds!'
+      FadeIn: 20
+      Stay: 20
+      FadeOut: 20
+    RespawnedTitle:
+      FadeIn: 20
+      Stay: 40
+      FadeOut: 20
+      Enabled: true
+      Title: '&aYou have been respawned.'
+      SubTitle: ''
+    AllBedsDestroyed:
+      Enabled: true
+      Title: '&cAll beds have been destroyed!'
+      SubTitle: ''
+      FadeIn: 20
+      Stay: 40
+      FadeOut: 20

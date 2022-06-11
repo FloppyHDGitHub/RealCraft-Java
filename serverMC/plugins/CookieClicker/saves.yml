@@ -1,0 +1,100 @@
+weekly:
+  9fc55c8e-ee33-4f8f-a2a0-eaa4fbb5eb12:
+    cookies:
+      current: 3.33889621E9
+      total: 1.7772560078E10
+      click: 1349539.0
+    productions:
+      GRANDMA: 75
+      BANK: 30
+      TIME_MACHINE: 0
+      WIZARD_TOWER: 7
+      SHIPMENT: 0
+      TEMPLE: 25
+      PRISM: 0
+      ALCHEMY_LAB: 0
+      ANTIMATTER_CONDENSER: 0
+      PORTAL: 0
+      FARM: 60
+      MINE: 45
+      FACTORY: 37
+      CURSOR: 100
+    upgrades:
+    - 45
+    - 16
+    - 10
+    - 7
+    - 8
+    - 2
+    - 44
+    - 9
+    - 18
+    - 239
+    - 11
+    - 13
+    - 3
+    - 1
+    - 15
+    - 76
+    - 5
+    - 0
+    - 17
+    - 233
+    - 12
+    - 75
+    - 234
+    - 244
+    - 14
+    - 238
+    - 4
+    - 232
+  042d923c-dc2b-421b-820d-15f68daead16:
+    cookies:
+      current: 72051.0
+      total: 319817.0
+      click: 15371.0
+    productions:
+      GRANDMA: 10
+      BANK: 0
+      TIME_MACHINE: 0
+      WIZARD_TOWER: 0
+      SHIPMENT: 0
+      TEMPLE: 0
+      PRISM: 0
+      ALCHEMY_LAB: 0
+      ANTIMATTER_CONDENSER: 0
+      PORTAL: 0
+      FARM: 2
+      MINE: 2
+      FACTORY: 1
+      CURSOR: 33
+    upgrades:
+    - 1
+    - 0
+    - 2
+    - 7
+    - 8
+    - 10
+    - 75
+  2fcd064b-c174-420e-ab34-0e3f387a7e54:
+    cookies:
+      current: 49.0
+      total: 1324.0
+      click: 1172.0
+    productions:
+      GRANDMA: 0
+      BANK: 0
+      TIME_MACHINE: 0
+      WIZARD_TOWER: 0
+      SHIPMENT: 0
+      TEMPLE: 0
+      PRISM: 0
+      ALCHEMY_LAB: 0
+      ANTIMATTER_CONDENSER: 0
+      PORTAL: 0
+      FARM: 1
+      MINE: 0
+      FACTORY: 0
+      CURSOR: 4
+    upgrades:
+    - 0

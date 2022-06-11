@@ -1,0 +1,11 @@
+ArenaType:
+  Solo:
+    BedsBroken: 2
+    BedsLost: 0
+    Deaths: 2
+    FinalDeaths: 0
+    GamesPlayed: 2
+    Kills: 2
+    Losses: 0
+    Wins: 2
+SkinName: VILLAGER

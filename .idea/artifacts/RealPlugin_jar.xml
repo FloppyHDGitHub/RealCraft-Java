@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RealPlugin:jar">
+    <output-path>$PROJECT_DIR$/serverMC/plugins</output-path>
+    <root id="archive" name="RealCraft.jar">
+      <element id="module-output" name="RealCraft" />
+    </root>
+  </artifact>
+</component>

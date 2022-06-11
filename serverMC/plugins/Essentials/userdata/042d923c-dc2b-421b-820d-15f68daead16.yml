@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 25.84.180.230
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1638198791330
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1638396879093
+  login: 1638405090709
+money: '650'
+last-account-name: Fluffy2060
+lastlocation:
+  world: 50dfde71-e6b0-4460-a52c-aef95c8199ba
+  world-name: bw-l1
+  x: 11.224877229311206
+  y: 7.5
+  z: 32.09661471873783
+  yaw: 149.3238067626953
+  pitch: 50.08439636230469
+logoutlocation:
+  world: 50dfde71-e6b0-4460-a52c-aef95c8199ba
+  world-name: bw-l1
+  x: 38.70303997879708
+  y: 8.0
+  z: -19.684403234018376
+  yaw: 115.38677978515625
+  pitch: -57.6407585144043
+homes:
+  home:
+    world: c0e5abf1-4224-434d-9aee-4987a59065ca
+    world-name: PlotWorld
+    x: -105.78294123564842
+    y: 65.0
+    z: 62.60021191707739
+    yaw: -27.74947738647461
+    pitch: 56.24998092651367

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 25.41.81.132
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1637955451821
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1638180876131
+  login: 1638180866954
+money: '535'
+last-account-name: xXBananenPlaysXx
+lastlocation:
+  world: 2b2dd0c6-3baf-4f52-aea7-53bd31d52c76
+  world-name: BW[8x1]RoofTop
+  x: 50.30000001192093
+  y: 44.0
+  z: 42.785397253422914
+  yaw: 34.63361740112305
+  pitch: 80.25011444091797
+logoutlocation:
+  world: 50dfde71-e6b0-4460-a52c-aef95c8199ba
+  world-name: bw-l1
+  x: 8.563020475279949
+  y: 7.5
+  z: 34.6352831637789
+  yaw: -180.74462890625
+  pitch: 13.799847602844238

@@ -1,0 +1,344 @@
+Friends:
+  Prefix: '&0[&3RealCraft&0]  &5-> &bFriends &7|'
+  CheckForUpdates: true
+  CommandAliases:
+  - f
+  - friend
+  - freund
+  - freunde
+  FriendLimit: 20
+  FriendLimitExtended: 50
+  DateFormat: MM/dd/yyyy
+  FriendItemOptions:
+    KeepOnDeath: true
+  JoinQuitMessages: true
+  FriendsCanPvP: true
+  HitToSendRequest: true
+  NotifyAboutRequestsOnJoin: true
+  Status:
+    EnableFilter: true
+    MaxLenght: 30
+    ChangeDuration: 600
+    AllowFarbcodes: false
+  Nicknames:
+    Enable: true
+    CheckForAbusiveWords: true
+  FriendChat:
+    Enable: true
+    Format: '@friends'
+    CheckForAbusiveWords: true
+  FriendMSG:
+    Enable: true
+    CheckForAbusiveWords: true
+    UseMSGCommand: true
+  Commands:
+    EnableClickableMessages: true
+    AddMessage:
+      Enable: true
+      CharacterLimit: 40
+    BlockNote:
+      Enable: true
+      CharacterLimit: 40
+    Jumping:
+      Enable: true
+  FriendItem:
+    Enable: false
+    Name: '&aFriends &7(Rightclick)'
+    ItemID: '397:3'
+    Lore: //&7Rightclick this item to open the//&7friend-inventory!
+    InventorySlot: 4
+    DelayedInventorySet: false
+  OpenGUIWithCommand: true
+  FriendInventory:
+    InventoryTitle: '&aYour friends: (Page %PAGE%)'
+    InventorySize: 54
+    HidePageItemsWhenNotNeeded: false
+    FriendsItem:
+      OnlineStatus: '&a(Online)'
+      OfflineStatus: '&7(Offline)'
+      Name: '&a%NAME% %ONLINE_STATUS%'
+      LoreOnline: '&7Status: //&r&o%STATUS%// //&7World: %WORLD%//&7Friends since:
+        %DATE%'
+      LoreOffline: '&7Status: //&r&o%STATUS%// //&7Last online: %LAST_ONLINE% o''clock//&7Friends
+        since: %DATE%'
+      ChangeSkullWhenOffline: true
+      NoStatusReplacement: '-'
+      LastOnlineFormat: MM/dd/yyyy - hh:mm
+    RequestsItem:
+      ShowItem: true
+      Name: '&aRequests'
+      ItemID: '388'
+      Lore: '&7Currently: (%REQUESTS_COUNT%)'
+      InventorySlot: 46
+      Base64Value: ''
+    OptionsItem:
+      ShowItem: true
+      Name: '&3Options'
+      ItemID: '404'
+      Lore: ''
+      InventorySlot: 49
+      Base64Value: ''
+    SortItem:
+      ShowItem: true
+      Name: '&3Sorting:'
+      ItemID: '399'
+      Lore: '&r%SORTING%'
+      InventorySlot: 51
+      OnOffSorting: '&rOnline/Offline'
+      FavoriteSorting: '&rFavorites first'
+      LongFriendSorting: '&rLongest friends first'
+      Alphabetic: '&rAlphabetic'
+      Base64Value: ''
+    NextPageItem:
+      ShowItem: true
+      Name: '&bNext Page'
+      ItemID: '262'
+      Lore: ''
+      InventorySlot: 54
+      Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgyYWQxYjljYjRkZDIxMjU5YzBkNzVhYTMxNWZmMzg5YzNjZWY3NTJiZTM5NDkzMzgxNjRiYWM4NGE5NmUifX19
+    PartyItem:
+      ShowItem: true
+      Name: '&9Your Party'
+      ItemID: '401'
+      Lore: ''
+      InventorySlot: 50
+      Base64Value: ''
+    PreviousPageItem:
+      ShowItem: true
+      Name: '&bPrevious Page'
+      ItemID: '262'
+      Lore: ''
+      InventorySlot: 53
+      Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+    Placeholders:
+      ItemID: '160:7'
+      Base64Value: ''
+      InventorySlots:
+      - 47
+      - 48
+      - 52
+    CustomItems:
+      CUSTOM_ITEM_1:
+        Name: '&eBack Button'
+        ItemID: '322'
+        Lore: ''
+        InventorySlot: 1
+        PerformCommand: Handy
+        Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19
+  FriendEditInventory:
+    InventoryTitle: '&3%NAME%'
+    InventorySize: 9
+    FavoriteItem:
+      ShowItem: true
+      Name: '&6Favorite'
+      ItemID: '322'
+      Lore: '&7Currently: %FAVORITE_STATUS%'
+      InventorySlot: 6
+      FavoriteStatusOn: '&aOn'
+      FavoriteStatusOff: '&cOff'
+      Base64Value: ''
+    CanSendMessagesItem:
+      ShowItem: true
+      Name: '&6%NAME% can send you messages'
+      ItemID: '339'
+      Lore: '&7Currently: %SENDMESSAGES_STATUS%// //&7This includes the friendchat,
+        private//&7messages and join/quit notifications!'
+      InventorySlot: 5
+      SendMessagesStatusOn: '&aOn'
+      SendMessagesStatusOff: '&cOff'
+      Base64Value: ''
+    NicknameItem:
+      ShowItem: true
+      Name: '&6Give your friend a nickname!'
+      ItemID: '421'
+      Lore: '&7Currently: %NICKNAME%////&3Rightclick &7to remove the nickname!'
+      InventorySlot: 3
+      NoNicknameReplacement: '-'
+      Base64Value: ''
+    RemoveItem:
+      Name: '&cRemove %NAME% from your friends'
+      ItemID: '35:14'
+      Lore: ''
+      InventorySlot: 9
+      Base64Value: ''
+    BackItem:
+      Name: '&7Back to your friends'
+      ItemID: '330'
+      Lore: ''
+      InventorySlot: 1
+      Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19
+    JumpItem:
+      ShowItem: true
+      Name: '&9Jump to %NAME%'
+      ItemID: '401'
+      Lore: ''
+      InventorySlot: 4
+      Base64Value: ''
+    PartyItem:
+      ShowItem: true
+      Name: '&dInvite %NAME% to your Party!'
+      ItemID: '401'
+      Lore: ''
+      InventorySlot: 7
+      Base64Value: ''
+    Placeholders:
+      ItemID: '160:7'
+      Base64Value: ''
+      InventorySlots:
+      - 2
+      - 4
+      - 7
+      - 8
+    CustomItems: '[]'
+  RequestsInventory:
+    InventoryTitle: '&aYour requests: (Page %PAGE%)'
+    InventorySize: 54
+    HidePageItemsWhenNotNeeded: false
+    RequestItem:
+      Name: '&a%NAME%'
+      Lore: '&7Requested: %DATE%//&7Message: //&r&o%MESSAGE%'
+      NoMessageReplacement: '-'
+    AcceptAllItem:
+      ShowItem: true
+      Name: '&aAccept all'
+      ItemID: '35:5'
+      Lore: '&7Currently: %REQUESTS_COUNT%'
+      InventorySlot: 49
+      Base64Value: ''
+    DenyAllItem:
+      ShowItem: true
+      Name: '&cDeny all'
+      ItemID: '35:14'
+      Lore: '&7Currently: %REQUESTS_COUNT%'
+      InventorySlot: 51
+      Base64Value: ''
+    BackItem:
+      Name: '&7Back to friends'
+      ItemID: '330'
+      Lore: ''
+      InventorySlot: 46
+      Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19
+    PreviousPageItem:
+      ShowItem: true
+      Name: '&bPrevious Page'
+      ItemID: '262'
+      Lore: ''
+      InventorySlot: 53
+      Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+    NextPageItem:
+      ShowItem: true
+      Name: '&bNext Page'
+      ItemID: '262'
+      Lore: ''
+      InventorySlot: 54
+      Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgyYWQxYjljYjRkZDIxMjU5YzBkNzVhYTMxNWZmMzg5YzNjZWY3NTJiZTM5NDkzMzgxNjRiYWM4NGE5NmUifX19
+    Placeholders:
+      ItemID: '160:7'
+      Base64Value: ''
+      InventorySlots:
+      - 47
+      - 48
+      - 50
+      - 52
+    CustomItems: '[]'
+  RequestEditInventory:
+    InventoryTitle: '&a%NAME% request:'
+    InventorySize: 9
+    MessageItem:
+      ShowItem: true
+      Name: '&7%NAME%''s message:'
+      ItemID: '339'
+      Lore: '&r&o%MESSAGE%'
+      InventorySlot: 5
+      NoMessageReplacement: '-'
+      Base64Value: ''
+    AcceptItem:
+      Name: '&aAccept %NAME%''s request'
+      ItemID: '35:5'
+      Lore: ''
+      InventorySlot: 4
+      Base64Value: ''
+    DenyItem:
+      Name: '&cDeny %NAME%''s request'
+      ItemID: '35:14'
+      Lore: ''
+      InventorySlot: 6
+      Base64Value: ''
+    BackItem:
+      Name: '&7Back to your requests'
+      ItemID: '330'
+      Lore: ''
+      InventorySlot: 1
+      Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19
+    Placeholders:
+      ItemID: '160:7'
+      Base64Value: ''
+      InventorySlots:
+      - 2
+      - 3
+      - 7
+      - 8
+      - 9
+    CustomItems: '[]'
+  OptionsInventory:
+    InventoryTitle: '&3Options:'
+    InventorySize: 9
+    OptionStatusOn: '&aOn'
+    OptionStatusOff: '&cOff'
+    BackItem:
+      Name: '&7Back to your friends'
+      ItemID: '330'
+      Lore: ''
+      InventorySlot: 1
+      Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19
+    ReceiveMessagesItem:
+      ShowItem: true
+      Name: '&6Receive Messages'
+      ItemID: '339'
+      Lore: '&7Currently: %OPTION_MESSAGES_STATUS%// //&7Toggle receiving messages
+        of all kind//&7Includes private messages aswell as//&7the friendchat and join/quit
+        notifications'
+      InventorySlot: 3
+      OnlyFavoritesStatus: '&eOnly Favorites'
+      Base64Value: ''
+    ReceiveRequestsItem:
+      ShowItem: true
+      Name: '&6Receive Requests'
+      ItemID: '397:3'
+      Lore: '&7Currently: %OPTION_REQUESTS_STATUS%// //&7Toggle wether you want to
+        receive//&7friendrequests from other players'
+      InventorySlot: 5
+      Base64Value: ''
+    OfflinemodeItem:
+      ShowItem: true
+      Name: '&6Offlinemode'
+      ItemID: '355'
+      Lore: '&7Currently: %OPTION_OFFLINEMODE_STATUS%// //&7If enabled, you will be
+        shown//&7as offline to all your friends'
+      InventorySlot: 7
+      Base64Value: ''
+    StatusItem:
+      ShowItem: true
+      Name: '&6Change your status'
+      ItemID: '421'
+      Lore: '&7Your current status://&r&o%STATUS%'
+      InventorySlot: 9
+      Base64Value: ''
+    JumpItem:
+      ShowItem: true
+      Name: '&9Jumping'
+      ItemID: '401'
+      Lore: '&7Currently: %OPTION_JUMPING_STATUS%// //&7If enabled, friends can jump
+        to//&7your current location!'
+      InventorySlot: 4
+      OnlyFavoritesStatus: '&6Only Favorites'
+      Base64Value: ''
+    Placeholders:
+      ItemID: '160:7'
+      Base64Value: ''
+      InventorySlots:
+      - 2
+      - 4
+      - 6
+      - 8
+    CustomItems: '[]'

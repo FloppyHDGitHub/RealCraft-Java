@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1638355099582
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1638402551562
+  login: 1638405014872
+money: '915'
+lastlocation:
+  world: 50dfde71-e6b0-4460-a52c-aef95c8199ba
+  world-name: bw-l1
+  x: 61.5
+  y: 26.0
+  z: -2.5
+  yaw: -267.7744140625
+  pitch: 11.24972915649414
+logoutlocation:
+  world: 50dfde71-e6b0-4460-a52c-aef95c8199ba
+  world-name: bw-l1
+  x: 54.61236225734355
+  y: 34.0
+  z: -11.334163297409509
+  yaw: 163.82583618164062
+  pitch: -6.450448989868164
+last-account-name: FloppyHD_0773
+nickname: FloppyHD_#0773

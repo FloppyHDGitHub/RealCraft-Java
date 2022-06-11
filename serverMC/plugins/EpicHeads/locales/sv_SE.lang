@@ -1,0 +1,59 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHeads&7]'
+  word:
+    page: Sida
+    query: Sök
+    favorites: Favoriter
+    everyone: allesammans
+    playerheads: Spelar Huvuden
+    latestpack: Senaste Paket
+  phrase:
+    latestpack: Senaste Paket
+  search:
+    global: '&6Skriv in ditt sökord.'
+    refine: '&6Skriv in en sökterm för att specificera din sökning.'
+    nonefound: '&cInga huvuden hittade..'
+    canceled: '&cSökning avbruten.'
+  head:
+    staffpicked: '&8Staff Favoriter'
+    id: '&8ID: &7%id%'
+    cost: '&8Kostand: &7%cost%'
+gui:
+  heads:
+    refine: '&9Gör om Sökning'
+    search: '&9Skappa Sökning'
+    categories: '&cTillbaka Till Kategorier'
+    delete: '&cMittenklicka för att ta bort'
+  general:
+    previous: '&6Föregående Sida'
+    next: '&6Nästa Sida'
+  overview:
+    title: EpicHeads (%count% huvuden)
+    search: '&a&lSök'
+    headname: '&c&l%name%'
+    headlore: '&e%count% huvuden'
+    packlore: '&e%pack%'
+    viewfavorites: '&6&lVisa Favoriter'
+    favoriteslore: '&8Shift-klicka på något huvud|&8för att spara den som en favorit.'
+    discord: '&9&lDiscord'
+    discordlore: '&8Lägg till eller fråga om nya huvuden|&8i vår discord server.'
+event:
+  general:
+    nopermission: '&cDu har inte tillstånd till att göra det där.'
+  buyhead:
+    cannotafford: '&cDu har inte råd med detta huvud.'
+command:
+  give:
+    notonline: '&cSpelaren &4%name% &ckunde inte hittas.'
+    notfound: '&cHuvudet &4%name%&c kunde inte hittas.'
+    success: '&7Du har gett &6%player% &7ett huvud namngett &6%name%&7.'
+    receive: '&7Du har fått ett huvud namngett &6%name%&7.'
+  add:
+    success: '&7La till huvudet &6%name% &7lyckat.'
+    exists: '&cDet huvudet existerar redan.'
+  givetoken:
+    success: '&7Du gav &6%player% %amount% &7spelar huvudpolletter.'
+    receive: '&7You have been given &6%amount% &7spelar huvudpolletter..'

@@ -1,0 +1,59 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHeads&7]'
+  word:
+    page: Pagina
+    query: Zoekopdracht
+    favorites: Favorieten
+    everyone: iedereen
+    playerheads: Speler hoofden
+    latestpack: Nieuwste pakket
+  phrase:
+    latestpack: Nieuwste pakket
+  search:
+    global: '&6Geef je zoekopdracht in.'
+    refine: '&6Geef een zoekterm in om je resultaten te verfijnen.'
+    nonefound: '&cGeen hoofden gevonden..'
+    canceled: '&cZoekopdracht geannuleerd'
+  head:
+    staffpicked: '&8Staff Favoriet'
+    id: '&8ID: &7%id%'
+    cost: '&8Kost: &7%cost%'
+gui:
+  heads:
+    refine: '&9Verfijn zoekopdracht'
+    search: '&9Nieuwe zoekopdracht'
+    categories: '&cTerug naar Categorieën'
+    delete: '&cMiddel klik om te verwijderen'
+  general:
+    previous: '&6Vorige pagina'
+    next: '&6Volgende pagina'
+  overview:
+    title: EpicHeads (%count% hoofden)
+    search: '&a&lZoek'
+    headname: '&c&l%name%'
+    headlore: '&e%count% hoofden'
+    packlore: '&e%pack%'
+    viewfavorites: '&6&lBekijk favorieten'
+    favoriteslore: '&8Shift klik op een hoofd|&8om het als favoriet op te slaan.'
+    discord: '&9&lDiscord'
+    discordlore: '&8Voeg nieuwe hoofden toe of vraag ze aan|&8in onze discord server.'
+event:
+  general:
+    nopermission: '&cJe hebt geen toestemming om dat te doen.'
+  buyhead:
+    cannotafford: '&cJe kunt dit hoofd niet betalen.'
+command:
+  give:
+    notonline: '&cDe speler &4%name% &ckon niet gevonden worden.'
+    notfound: '&cHet hoofd &4%name% &ckon niet gevonden worden.'
+    success: '&7Je hebt &6%player% &7een hoofd genaamd &6%name%&7 gegeven.'
+    receive: '&7Je hebt een hoofd genaamd &6%name%&7 ontvangen.'
+  add:
+    success: '&7Het hoofd &6%name% &7is succesvol toegevoegd.'
+    exists: '&cDat hoofd bestaat al.'
+  givetoken:
+    success: '&7Je hebt &6%player% %amount% &7player hoofd tokens gegeven.'
+    receive: '&7Je hebt &6%amount% &7player hoofd tokens ontvangen.'

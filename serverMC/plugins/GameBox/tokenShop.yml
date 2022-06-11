@@ -1,0 +1,283 @@
+# this file contains the whole shop
+# it is sorted in categories that will be selectable on the first Main-page of the shop
+# The number of items per category is basically infinite (fun bug I had: the plugin kept putting the same item in one page. At ~9 million items the server crashed)
+
+# A page system will automatically open new pages and build the 'next' and 'back' buttons accordingly
+
+# this is to make sure that you customized the shop before players can buy stuff
+#   set it to true to enable shopping
+open: false
+
+shop:
+  button:
+     # define the Material and data for the item (format: 'material:data')
+     materialData: "STORAGE_MINECART"
+     # display name of the button
+     displayName: "&3&lShop"
+     # lore of the item (optional)
+     lore:
+     - ""
+     - "&1Click to open the shop"
+     glow: true
+  categories:
+    # unique key of the category
+    blocks:
+      # material data of the button for the category
+      materialData: "159:1"
+      # display name of the button
+      displayName: "&3&lBlock section with several pages"
+      # lore of the button
+      lore:
+      - ""
+      - "&1Buy useless blocks"
+      # should it glow?
+      glow: false
+      # items in the pages of the shop
+      items:
+        # example with all the possible features
+        maximumExample:
+          # material data of item to be sold
+          #   if not set, no item will be sold, but commands are still send
+          materialData: "dirt"
+          # optional display name of the sold item
+          displayName: "&2Special dirt"
+          # optional lore of the sold item
+          lore:
+          - ""
+          - "&1smells very special..."
+          # optional glow of the sold item
+          glow: true
+          # price in token (optional)
+          #   if both (token AND money) is set, players have to pay both!
+          tokens: 1
+          # money price (optional)
+          money: 1
+          # optional count (only up to max stack size of the particular item)
+          #   default is 1
+          count: 2
+          # this item is the item displayed in the shop
+          #   if not set the item that is sold is used
+          #   customizing this make the most sense for "selling" commands
+          buttonItem:
+            # only the displayed item will glow
+            #   the sold item is normal dirt
+            glow: true
+
+            # optional lore added to the default shop lore that already contains the price of the item/command
+            additionalLore:
+            - "&1Personal greeting by the server"
+            - ""
+            - "&1Have the permissions:"
+            - "&6   gamebox.testing1"
+            - "&6   gamebox.testing2"
+            - ""
+            - "&1Do not have the permissions:"
+            - "&6   gamebox.play.battleship"
+            - "&6   gamebox.play.*"
+
+            # optional display name
+            displayName: "&2Example"
+
+          # if not all requirements are fulfilled, a message will be send over the inventory title
+          #   you can customize the message in the language file
+          requirements:
+
+            # the player must have all of these permissions!
+            permissions:
+            - "gamebox.testing1"
+            - "gamebox.testing2"
+
+            # the player is not allowed to have any of these permissions
+            noPermissions:
+            - "gamebox.play.battleship"
+            - "gamebox.play.*"
+
+          # optional commands to run when the player buys this
+          #   %player% will be replaced by the player name
+          commands:
+          - "tell %player% Hi"
+
+          # optional! default: false
+          #    see 'commandManipulatingInventoryExample' for an example usage
+          # caution with this option
+          #    you should only use commands that manipulate the player inventory
+          #    if there is no other solution
+          #      like building the custom item with the lore and display name and sell it the normal way
+          manipulatesInventory: false
+
+        # minimalistic example
+        #   the following item will be for free
+        minimalExample:
+          materialData: "sapling:3"
+
+        # item only for people with special permission
+        blueClay:
+          materialData: "obsidian"
+          tokens: 1
+          buttonItem:
+            additionalLore:
+            - "&1You need the following permission"
+            - "&1  to buy this item:"
+            - " "
+            - "&6  my.server.builder"
+          requirements:
+            permissions:
+            - "my.server.builder"
+
+        # selling a glowing item
+        blueClayd37:
+          materialData: "452"
+          tokens: 100
+          money: 1000
+          glow: true
+
+        # run command if player has/hasn't some permission
+        commandExample:
+          tokens: 1
+          money: 1
+          buttonItem:
+            materialData: "nether_star"
+            displayName: "&9&lExample Command"
+            additionalLore:
+            - "&1If you buy this, the server"
+            - "&1  will thank you ;)"
+            - " "
+            - "&1Do not have the permission:"
+            - "&6  my.server.builder"
+            - " "
+            - "&1Have the permission:"
+            - "&6  gamebox.play.*"
+          requirements:
+            permissions:
+            - "gamebox.play.*"
+            noPermissions:
+            - "my.server.builder"
+          commands:
+          - "tell %player% Thanks for buying, %player%!"
+
+        # run /give command if player has/hasn't some permission
+        #    you shouldn't give items in this way
+        #    here you could simply sell the obsidian the normal way instead
+        commandManipulatingInventoryExample:
+          tokens: 1
+          money: 1
+          buttonItem:
+            materialData: "obsidian"
+            displayName: "&9&lExample give Command"
+            additionalLore:
+            - "&1Gives you 59 obsidian per command"
+            - "   &1If you have"
+            - "   &6my.server.builder"
+            glow: true
+          requirements:
+            permissions:
+            - "my.server.builder"
+
+          # this command will manipulate the players inventory
+          #   thus the option below is set
+          commands:
+          - "give %player% obsidian 59"
+
+          # caution with this option
+          #    you should only use commands that manipulate the player inventory
+          #    if there is no other solution
+          #      like building the custom item with the lore and display name and sell it the normal way
+          manipulatesInventory: true
+
+        blueClay1:
+          materialData: "159:6"
+          tokens: 1
+        yellowClay1:
+          materialData: "159:4"
+          tokens: 1
+          money: 1
+        blueClay2:
+          materialData: "159:11"
+          tokens: 1
+          money: 0
+        yellowClay2:
+          materialData: "159:4"
+          tokens: 1
+          money: 1
+        blueClay3:
+          materialData: "159:11"
+          tokens: 1
+          money: 0
+        yellowClay3:
+          materialData: "159:4"
+          tokens: 1
+          money: 1
+        blueClay4:
+          materialData: "159:11"
+          tokens: 1
+          money: 0
+        yellowClay4:
+          materialData: "159:4"
+          tokens: 1
+          money: 1
+        blueClay5:
+          materialData: "159:11"
+          tokens: 1
+          money: 0
+        yellowClay5:
+          materialData: "159:4"
+          tokens: 1
+          money: 1
+        blueClay6:
+          materialData: "159:11"
+          tokens: 1
+        yellowClay6:
+          materialData: "159:4"
+          tokens: 1
+          money: 1
+        blueClay27:
+          materialData: "159:11"
+          tokens: 1
+        yellowClay27:
+          materialData: "159:4"
+          tokens: 1
+          money: 1
+        blueClay37:
+          materialData: "159:11"
+          tokens: 1
+        yellowClay37:
+          materialData: "159:4"
+          tokens: 1
+          money: 1
+        blueClay47:
+          materialData: "159:11"
+          tokens: 1
+          money: 0
+    food:
+      materialData: "wheat"
+      displayName: "&3&lFood section"
+      lore:
+      - ""
+      - "&1Buy food"
+      glow: false
+      items:
+        blueClay:
+          materialData: "cake"
+          tokens: 10
+          money: 100
+        yellowClay:
+          materialData: "bread"
+          tokens: 1
+          money: 1
+    glow:
+      materialData: "159:1"
+      displayName: "&1&lThe mysterious glowing section"
+      lore:
+      - ""
+      - "&1Buy Stuff"
+      - "&4&lYou should really customize this ;)"
+      glow: true
+      items:
+        blueClay:
+          materialData: "GOLD_INGOT"
+          tokens: 1000
+          money: 0
+        yellowClay:
+          materialData: "CHEST"
+          tokens: 10
+          money: 150

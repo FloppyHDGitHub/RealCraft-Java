@@ -1,0 +1,59 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHeads&7]'
+  word:
+    page: Page
+    query: Query
+    favorites: Mored alaqe
+    everyone: everyone
+    playerheads: Player Heads
+    latestpack: Akharin Pack
+  phrase:
+    latestpack: Akharin Pack
+  search:
+    global: '&6Kalameye seatch ra vared konid.'
+    refine: '&6Yek seatch term entekhab konid.'
+    nonefound: '&cHich headi peyda nashod'
+    canceled: '&cSearch cancel shod.'
+  head:
+    staffpicked: '&8Mored alaqeye staff'
+    id: '&8ID: &7%id%'
+    cost: '&8Cost: &7%cost%'
+gui:
+  heads:
+    refine: '&9Search Tashih'
+    search: '&9Sakhtan yek seatch'
+    categories: '&cBazgasht be categories'
+    delete: '&cbaraye delete dokmeye Middle mouse ra click konid'
+  general:
+    previous: '&6Safheye qabli'
+    next: '&6Safheye badi'
+  overview:
+    title: EpicHeads (%count% heads)
+    search: '&a&lJostojo'
+    headname: '&c&l%name%'
+    headlore: '&e%count% heads'
+    packlore: '&e%pack%'
+    viewfavorites: '&6&lMoshahedeye mored alaqe'
+    favoriteslore: '&8Baraye save kardan head|&8dar list mored alaqe Shift-click konid.'
+    discord: '&9&lDiscord'
+    discordlore: '&8Ezafe kardan ya darkhast head |&8dar discord.'
+event:
+  general:
+    nopermission: '&cShoma permission kafi baraye anjam in kar ra nadarid.'
+  buyhead:
+    cannotafford: '&cShoma nmitavanid in head ra begirid.'
+command:
+  give:
+    notonline: '&cPlayer ba esm &4%name% &cpeyda nashod.'
+    notfound: '&cHead ba esme &4%name%&c peyda nashod.'
+    success: '&7Shoma be &6%player% &7yek head be name &6%name%&7 dadid.'
+    receive: '&7Shoma yek head be name &6%name%&7 gereftid.'
+  add:
+    success: '&7Heade &6%name% &7ezafe shod.'
+    exists: '&cIn head dar hal hazer dar list ast.'
+  givetoken:
+    success: '&7Shoma be &6%player% %amount% &7head token dadid.'
+    receive: '&7Shoma &6%amount% &7head token daryaft kardid.'

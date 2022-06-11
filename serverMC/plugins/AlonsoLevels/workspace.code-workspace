@@ -1,0 +1,14 @@
+{
+    "folders": [
+		{
+			"path": "..\\..\\..\\HelpMeMaid\\serverMC"
+		}
+	],
+    "settings": {
+        "workbench.colorCustomizations": {
+            "activityBar.background": "#183414",
+            "titleBar.activeBackground": "#22491B",
+            "titleBar.activeForeground": "#F6FBF5"
+        }
+    }
+}

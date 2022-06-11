@@ -1,0 +1,59 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHeads&7]'
+  word:
+    page: 9af7a
+    query: Aisti3lam
+    favorites: Almofa9'la
+    everyone: Alkol
+    playerheads: Ro2os alla3eben
+    latestpack: A7dath hizmatan
+  phrase:
+    latestpack: A7dath hizmatan
+  search:
+    global: '&6Ad5il aisti3lama ba7thk.'
+    refine: '&6Ad5il mostala7an lilba7th lita7ded ba7thk.'
+    nonefound: '&cLam yatima al al3othor 3ala ro2os..'
+    canceled: '&cTama il3''a2 alba7th.'
+  head:
+    staffpicked: '&8Staff Favorite'
+    id: '&8ID: &7%id%'
+    cost: '&8Cost: &7%cost%'
+gui:
+  heads:
+    refine: '&9Ta7ded ba7th'
+    search: '&9Insha2 ba7th'
+    categories: '&cAlrojo3 ela alfe2at'
+    delete: '&cUn8ur 3ala 3ajala alfa2r lekay ta7zef'
+  general:
+    previous: '&6Al9af7a alsabeqa'
+    next: '&6Al9af7a altaleya'
+  overview:
+    title: EpicHeads (%count% heads)
+    search: '&a&lBa7th'
+    headname: '&c&l%name%'
+    headlore: '&e%count% ro2os'
+    packlore: '&e%pack%'
+    viewfavorites: '&6&lMoshahdat almofadala'
+    favoriteslore: '&8Ed3''at 3ala zir al Shift 3ala ay ra2s|&8lita7fazha kalmofadala.'
+    discord: '&9&lDiscord'
+    discordlore: '&8Adif aw e6lob ro2os jadeda|&8fe 5adim al Discord al5a9 bena.'
+event:
+  general:
+    nopermission: '&cAnta la tamlok al2ezn li2sti5dam haza al2amr.'
+  buyhead:
+    cannotafford: '&cAnta la tamluk almal alkafy lishira2 hazehe alra2s.'
+command:
+  give:
+    notonline: '&cAlla3eb &4%name% &clam yatim al3othor 3alieh.'
+    notfound: '&cRa2s &4%name%&c lam yatim al3othor 3alieha.'
+    success: '&7La8ad a36ayt &6%player% &7ra2s aismuh &6%name%&7.'
+    receive: '&7La8ad 7asalt 3ala ra2s aismuh &6%name%&7.'
+  add:
+    success: '&7Udif ra2s &6%name% &7benaja7.'
+    exists: '&cHazehe alra2s mawjoda belfe3l.'
+  givetoken:
+    success: '&7Anta a36ayt &6%player% %amount% &73omlat ra2s alla3eb.'
+    receive: '&7La8ad tam e36a2ok &6%amount% &73omlat ra2s alla3eb.'
